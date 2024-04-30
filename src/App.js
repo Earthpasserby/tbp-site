@@ -10,6 +10,8 @@ import {
 
 import HomePage from "./Components/HomePage";
 import Homepage2 from "./Components/Homepage2";
+import Services from "./Components/Services";
+import Pattners from "./Components/Pattners";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route>
           <Route index element={<HomePage />} />
           <Route path="/Homepage2" element={<Homepage2 />} />
+          <Route path="/Services" element={<Services />} />
+          <Route path="/Pattners" element={<Pattners />} />
         </Route>
       </Routes>
     </BrowserRouter>

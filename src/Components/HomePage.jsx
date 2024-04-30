@@ -4,6 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import Homepage2 from "./Homepage2";
+import Services from "./Services";
+import Pattners from "./Pattners";
 
 const HomePage = () => {
   return (
@@ -71,6 +73,8 @@ const HomePage = () => {
         </Row>
       </Container>
       <Homepage2 />
+      <Services />
+      <Pattners />
     </>
   );
 };
