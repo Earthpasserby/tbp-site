@@ -31,8 +31,8 @@ const Services = () => {
             <Image src="/./thrid-img.png" className="img-fluid Service-img" />
             <p className="Img-text">SEARCH ENGINE OPTIMIZATION (SEO)</p>
           </Col>
-          <Link to="/" style={{ textDecoration: "none" }}>
-            <div className=" LinkButton mx-auto">
+          <Link to="/" style={{ textDecoration: "none" }} className="b1">
+            <div className=" LinkButton1 mx-auto">
               <Button
                 type="btn"
                 variant="Secondary"

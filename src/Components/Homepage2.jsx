@@ -25,7 +25,7 @@ const Homepage2 = () => {
           <Col md={5} className="mt-5">
             <Image
               src="/./flower.png"
-              className="img-fluid"
+              className="img-fluid image-class"
               style={{ width: "267.32px", height: "325.09px" }}
             />
           </Col>

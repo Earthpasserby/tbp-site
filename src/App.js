@@ -13,6 +13,9 @@ import Homepage2 from "./Components/Homepage2";
 import Services from "./Components/Services";
 import Pattners from "./Components/Pattners";
 import Featured from "./Components/Featured";
+import Projects from "./Components/Projects";
+import Experience from "./Components/Experience";
+import Testimonial from "./Components/Testimonial";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
           <Route path="/Services" element={<Services />} />
           <Route path="/Pattners" element={<Pattners />} />
           <Route path="/Featured" element={<Featured />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/Experience" element={<Experience />} />
+          <Route path="/Testimonial" element={<Testimonial/>} />
         </Route>
       </Routes>
     </BrowserRouter>

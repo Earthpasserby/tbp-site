@@ -7,6 +7,9 @@ import Homepage2 from "./Homepage2";
 import Services from "./Services";
 import Pattners from "./Pattners";
 import Featured from "./Featured";
+import Projects from "./Projects";
+import Experience from "./Experience";
+import Testimonial from "./Testimonial";
 const HomePage = () => {
   return (
     <>
@@ -14,7 +17,7 @@ const HomePage = () => {
         fluid
         style={{
           backgroundImage: "url('./bg1-img.png')",
-          backgroundSize: "cover",
+          backgroundSize: "cover",  
           backgroundPosition: "center",
           minHeight: "90vh",
         }}
@@ -76,6 +79,9 @@ const HomePage = () => {
       <Services />
       <Pattners />
       <Featured />
+      <Projects />
+      <Experience />
+      <Testimonial />
     </>
   );
 };
