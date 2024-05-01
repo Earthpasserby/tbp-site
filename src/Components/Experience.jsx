@@ -42,7 +42,7 @@ const Experience = () => {
             </div>
           </Link>
         </Col>
-        <Col md={4} className="mt-4 mb-0">
+        <Col md={4} className="mt-4 mb-4">
           <Image
             src="/./light.png"
             className="img-fluid "

@@ -10,6 +10,9 @@ import Featured from "./Featured";
 import Projects from "./Projects";
 import Experience from "./Experience";
 import Testimonial from "./Testimonial";
+import Knowledge from "./Knowledge";
+import Join from "./Join";
+
 const HomePage = () => {
   return (
     <>
@@ -17,7 +20,7 @@ const HomePage = () => {
         fluid
         style={{
           backgroundImage: "url('./bg1-img.png')",
-          backgroundSize: "cover",  
+          backgroundSize: "cover",
           backgroundPosition: "center",
           minHeight: "90vh",
         }}
@@ -82,6 +85,8 @@ const HomePage = () => {
       <Projects />
       <Experience />
       <Testimonial />
+      <Knowledge />
+      <Join />
     </>
   );
 };

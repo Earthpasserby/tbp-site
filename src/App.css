@@ -258,14 +258,15 @@
 
   /*Service page*/
   .Service .p1 {
+    margin-top: 10px !important;
     font-family: "Montserrat";
     font-size: 15px !important;
-    font-weight: 700;
+    font-weight: 700  !important;
     letter-spacing: 0.15em;
     text-align: left;
     color: #ff3c00;
     width: 357px;
-    height: 8px;
+
     gap: 0px;
     opacity: 0px;
     margin-top: 50px;
@@ -298,7 +299,7 @@
     opacity: 0px;
     margin-left: auto !important;
     margin-right: auto !important;
-    margin-top: 0 !important;
+    margin-top: 1px !important;
   }
   .Service h4 {
     font-family: "Montserrat";
@@ -306,6 +307,8 @@
     font-weight: 700;
     line-height: 50px;
     text-align: left;
+    margin-top: 5px !important;
+    margin-bottom: 0 !important;
   }
   .Service-img {
     margin-top: 20px;
@@ -334,11 +337,11 @@
 
   .Project p {
     font-family: "Montserrat";
-    font-size: 18px !important;
+    font-size: 19px !important;
     font-weight: 400;
     line-height: 32px !important;
     text-align: left !important;
-    width: 390px !important;
+    width: 350px !important;
     height: 141px;
     gap: 0px;
     opacity: 0px;
@@ -365,7 +368,7 @@
   /* Experience page */
   .Exp-header h4 {
     font-family: "Montserrat";
-    font-size: 22px !important;
+    font-size: 20px !important;
     font-weight: 800;
     line-height: 28px;
     text-align: left;
@@ -373,36 +376,38 @@
     height: 25px;
     gap: 0px;
     opacity: 0px;
+    padding: 10px;
   }
   .Exp-header p {
     font-family: "Montserrat";
-    font-size: 18px !important;
-    font-weight: 500;
+    font-size: 14px !important;
+    font-weight: 500 !important;
     line-height: 32px;
     text-align: left;
-    width: 390px !important;
+    width: 350px !important;
     height: 173px;
     gap: 0px;
     opacity: 0px;
     color: #ffffff;
-    padding-left: auto;
-    padding-right: auto;
+    padding: 10px;
   }
 
   .LinkButton2 {
     margin-top: 190px !important;
     width: 265px;
-    height: 52px;
-    padding: 10px;
+    margin-top: 170px !important;
+    padding: 19px !important;
     gap: 10px;
     border-radius: 50px;
     background: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 13px;
   }
 
   /* Testiomonial page */
+
   .Service h4 {
     font-family: "Montserrat";
     font-size: 25px !important;
@@ -451,6 +456,85 @@
     align-items: center;
     justify-content: center;
     float: left !important;
+  }
+  /*Kowledge page*/
+  .known h4 {
+    font-family: "Montserrat";
+    font-size: 30px !important;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: left;
+    color: #161616;
+    width: 340px !important;
+  }
+  .known p {
+    font-family: "Montserrat";
+    font-size: 17\px !important;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    width: 370px !important;
+    height: 77px;
+    color: #363636;
+  }
+  .known {
+    margin-bottom: 120px !important;
+  }
+  .knownCol {
+    font-family: "Montserrat";
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #000000;
+    width: 345px !important;
+    height: 39px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .LinkButton8 {
+    width: 207px;
+    height: 52px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 50px;
+    background: #ff3c00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left !important;
+  }
+  /*join page*/
+  .join h4 {
+    font-family: "Montserrat";
+    font-size: 23px !important;
+    font-weight: 700;
+    text-align: left !important;
+    width: 300px !important;
+    margin-top: 40px !important;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .join p {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left !important;
+    width: 357px !important;
+    height: 42px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .LinkButton6 {
+    width: 265px !important;
+    padding: 5px 5px 10px 10px;
+    gap: 10px;
+    border-radius: 50px;
+    opacity: 0px;
+    background: #ff3c00;
+    float: left !important;
+    margin-top: 170px !important;
   }
 }
 
@@ -627,4 +711,100 @@
 .carousel-control-next-icon,
 .carousel-indicators {
   fill: #ff0000; /* Set the desired color */
+}
+
+/*Knownledge page*/
+.known {
+  margin-bottom: 40px;
+}
+.known h4 {
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+  color: #161616;
+  width: 540px;
+}
+.known p {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  width: 863px;
+  height: 77px;
+  color: #363636;
+}
+
+.LinkButton8 {
+  width: 207px;
+  height: 52px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 50px;
+  background: #ff3c00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.known span {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+}
+.knownCol {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #000000;
+  width: 540px;
+  height: 39px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+/*join page*/
+.join h4 {
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 150px;
+}
+.join p {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+}
+.join span {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+}
+.LinkButton6 {
+  width: 265px;
+  padding: 5px 5px 10px 10px;
+  gap: 10px;
+  border-radius: 50px;
+  opacity: 0px;
+  background: #ff3c00;
+  text-align: center;
+}
+.centered-row {
+  margin-left: auto;
+  margin-right: auto;
+  width: 913px;
+  height: 313px;
+  gap: 69px;
+  opacity: 0px;
 }

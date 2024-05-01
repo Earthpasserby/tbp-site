@@ -26,7 +26,7 @@ const Homepage2 = () => {
             <Image
               src="/./flower.png"
               className="img-fluid image-class"
-              style={{ width: "267.32px", height: "325.09px" }}
+              style={{ width: "267.32px" }}
             />
           </Col>
         </Row>

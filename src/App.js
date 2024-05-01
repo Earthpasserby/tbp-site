@@ -16,6 +16,8 @@ import Featured from "./Components/Featured";
 import Projects from "./Components/Projects";
 import Experience from "./Components/Experience";
 import Testimonial from "./Components/Testimonial";
+import Knowledge from "./Components/Knowledge";
+import Join from "./Components/Join";
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
           <Route path="/Featured" element={<Featured />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Experience" element={<Experience />} />
-          <Route path="/Testimonial" element={<Testimonial/>} />
+          <Route path="/Testimonial" element={<Testimonial />} />
+          <Route path="/Knowledge" element={<Knowledge />} />
+          <Route path="/Join" element={<Join />} />
         </Route>
       </Routes>
     </BrowserRouter>
