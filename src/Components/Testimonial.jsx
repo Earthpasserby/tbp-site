@@ -1,5 +1,13 @@
 import React from "react";
-import { Container, Row, Image, Col, Button } from "react-bootstrap";
+import {
+  Container,
+  Row,
+  Image,
+  Col,
+  Button,
+  Carousel,
+  Caro,
+} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
@@ -7,18 +15,66 @@ import { Link } from "react-router-dom";
 const Testimonial = () => {
   return (
     <>
-      <Container fluid style={{ backgroundColor: "#161616" }} className="home">
+      <Container
+        fluid
+        style={{ backgroundColor: "#161616", minHeight: "50vh" }}
+        className="home"
+      >
         <Row className="mx-auto Service">
-          <Col className="mb-5">
+          <Col className="mb-0" style={{ marginTop: "20px" }}>
             <p className="p1">TESTIMONIALS</p>
-            <h4 className="mb-4" style={{ color: "#FFFFFF" }}>
+            <h4 className="mb-0" style={{ color: "#FFFFFF" }}>
               What our Clients Says
             </h4>
-            <Image
-              src="/./Meenees Logo (Main) 1.png"
-              className="img-fluid  mx-auto"
-              style={{ width: "112.54px", height: "23.58px" }}
-            />
+
+            <Carousel fade className="">
+              <Carousel.Item>
+                <div className="image-container">
+                  <Image
+                    src="/./Meenees Logo (Main) 1.png"
+                    className="img-fluid centered-img"
+                    style={{ width: "112.54px", height: "23.58px" }}
+                  />
+                </div>
+                <Carousel.Caption>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    tempor ligula eu felis porta, nec volutpat ligula bibendum.
+                  </p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <div className="image-container">
+                  <Image
+                    src="/./Meenees Logo (Main) 1.png"
+                    className="img-fluid centered-img"
+                    style={{ width: "112.54px", height: "23.58px" }}
+                  />
+                </div>
+                <Carousel.Caption>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    tempor ligula eu felis porta, nec volutpat ligula bibendum.
+                  </p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <div className="image-container">
+                  <Image
+                    src="/./Meenees Logo (Main) 1.png"
+                    className="img-fluid centered-img"
+                    style={{ width: "112.54px", height: "23.58px" }}
+                  />
+                </div>
+                <Carousel.Caption>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    tempor ligula eu felis porta, nec volutpat ligula bibendum.
+                    sit amet tincidunt justo consectetur.
+                  </p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
           </Col>
         </Row>
       </Container>
@@ -28,23 +84,26 @@ const Testimonial = () => {
           backgroundImage: "url('./key.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          minHeight: "100px",
+          minHeight: "70vh",
         }}
       >
         <Row>
-          <div className="Service" style={{marginTop:"200px"}}>
+          <div className="Service">
             <h4 className="p5">
-              Ready to make some noise in the digital realm? Let's plug into
-              success together!
+              Ready to make some noise in the digital realm?
+              <br />
+              Let's plug into success together!
             </h4>
-            <p className="p6 mx-auto ">
-              The Brand Plug –{" "}
-              <span style={{ color: "#FF3C00", fontWeight: "700px" }}>
-                Amplify, Elevate, Succeed{" "}
-              </span>
-            </p>
-            <Link to="/" style={{ textDecoration: "none" }} className="">
-              <div className=" LinkButton2 mt-4 mx-auto">
+            <div className="p6 mt-5">
+              <p>
+                The Brand Plug –{" "}
+                <span style={{ color: "#FF3C00", fontWeight: "700px" }}>
+                  Amplify, Elevate, Succeed{" "}
+                </span>
+              </p>
+            </div>
+            <Link to="/" style={{ textDecoration: "none" }} className="button3">
+              <div className=" LinkButton3 mt-4 mx-auto">
                 <Button type="btn" variant="Secondary">
                   <span className="mx-2 spanButton1">
                     Get started with us

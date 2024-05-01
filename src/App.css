@@ -259,7 +259,7 @@
   /*Service page*/
   .Service .p1 {
     font-family: "Montserrat";
-    font-size: 15px;
+    font-size: 15px !important;
     font-weight: 700;
     letter-spacing: 0.15em;
     text-align: left;
@@ -287,17 +287,18 @@
   }
   .Service .p2 {
     font-family: "Montserrat";
-    font-size: 17px;
+    font-size: 17px !important;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 22px !important;
     text-align: left;
     color: #363636;
-    width: 370px;
-    height: 100px;
+    width: 340px !important;
+    height: 70px;
     gap: 0px;
     opacity: 0px;
     margin-left: auto !important;
     margin-right: auto !important;
+    margin-top: 0 !important;
   }
   .Service h4 {
     font-family: "Montserrat";
@@ -314,7 +315,7 @@
     font-family: "Montserrat";
     font-size: 25px;
     font-weight: 700;
-    line-height: 55px;
+    line-height: 25px;
     text-align: left;
   }
   /*Project page*/
@@ -364,7 +365,7 @@
   /* Experience page */
   .Exp-header h4 {
     font-family: "Montserrat";
-    font-size: 26px !important;
+    font-size: 22px !important;
     font-weight: 800;
     line-height: 28px;
     text-align: left;
@@ -389,7 +390,7 @@
   }
 
   .LinkButton2 {
-    margin-top: 140px !important;
+    margin-top: 190px !important;
     width: 265px;
     height: 52px;
     padding: 10px;
@@ -399,6 +400,57 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  /* Testiomonial page */
+  .Service h4 {
+    font-family: "Montserrat";
+    font-size: 25px !important;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: left !important;
+    width: 357px;
+    height: 74px;
+    gap: 0px;
+    opacity: 0px;
+    color: #ffffff;
+  }
+  .p6 {
+    margin-top: 140px !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+  }
+
+  .carousel-item {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .carousel-caption {
+    text-align: center !important;
+    width: 267px !important;
+    height: 160px !important; /* Set the desired height */
+    line-height: 20px;
+    margin-top: 30px !important;
+  }
+  .carousel {
+    height: 200px;
+  }
+  .LinkButton3 {
+    margin-top: 10px !important;
+    width: 265px;
+    height: 52px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 50px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left !important;
   }
 }
 
@@ -518,7 +570,7 @@
   font-weight: 800;
   line-height: 50px;
   text-align: center;
-
+  margin-top: 130px;
   height: 72px;
   gap: 0px;
   opacity: 0px;
@@ -532,4 +584,47 @@
   line-height: 33px;
   text-align: center;
   color: #ffffff;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px; /* Adjust the height as needed */
+}
+
+.centered-image {
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  max-height: 40%; /* Ensure the image doesn't exceed the container height */
+}
+.LinkButton3 {
+  width: 265px;
+  height: 52px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 50px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-caption {
+  color: white; /* Text color */
+}
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Set the desired height */
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators {
+  fill: #ff0000; /* Set the desired color */
 }

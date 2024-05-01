@@ -11,7 +11,7 @@ const Services = () => {
         <Row className="Service">
           <div className="">
             <p className="p1">Services</p>
-            <h4 className="">What we Offer</h4>
+            <h4 className="p4">What we Offer</h4>
             <p className="p2 mx-auto ">
               Elevating your brand with our custom solutions, designed
               specifically to boost your presence and achieve remarkable

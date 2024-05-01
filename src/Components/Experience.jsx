@@ -6,14 +6,18 @@ import { Link } from "react-router-dom";
 
 const Experience = () => {
   return (
-    <Container fluid style={{ backgroundColor: "#161616" }} className="mt-1 home">
+    <Container
+      fluid
+      style={{ backgroundColor: "#161616" }}
+      className="mt-1 home"
+    >
       <Row className="Exp-header">
         <Col md={8} className="mb-2 mt-5">
           <h4 className="mb-4" style={{ color: "#FFFFFF" }}>
             Join The Brand Plug
             <span style={{ color: "#FF3C00" }}> Experience</span>
           </h4>
-          <p>
+          <p className="mb-4">
             Your success is our success. We believe in collaborative
             partnerships, working closely with our clients to understand their
             vision and goals. Embark on a journey with The Brand Plug, where
@@ -23,8 +27,12 @@ const Experience = () => {
             brand's presence and foster sustainable growth.
           </p>
 
-          <Link to="/" style={{ textDecoration: "none" }} className="">
-            <div className=" LinkButton2 mt-4">
+          <Link
+            to="/"
+            style={{ textDecoration: "none" }}
+            className="Button-link"
+          >
+            <div className=" LinkButton2 mt-4 mb-4">
               <Button type="btn" variant="Secondary">
                 <span className="mx-2 spanButton1">
                   Get started with us
@@ -34,7 +42,7 @@ const Experience = () => {
             </div>
           </Link>
         </Col>
-        <Col md={4} className="mt-5">
+        <Col md={4} className="mt-4 mb-0">
           <Image
             src="/./light.png"
             className="img-fluid "
