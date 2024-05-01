@@ -12,6 +12,7 @@ import HomePage from "./Components/HomePage";
 import Homepage2 from "./Components/Homepage2";
 import Services from "./Components/Services";
 import Pattners from "./Components/Pattners";
+import Featured from "./Components/Featured";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/Homepage2" element={<Homepage2 />} />
           <Route path="/Services" element={<Services />} />
           <Route path="/Pattners" element={<Pattners />} />
+          <Route path="/Featured" element={<Featured />} />
         </Route>
       </Routes>
     </BrowserRouter>

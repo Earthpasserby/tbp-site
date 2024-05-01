@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import Homepage2 from "./Homepage2";
 import Services from "./Services";
 import Pattners from "./Pattners";
-
+import Featured from "./Featured";
 const HomePage = () => {
   return (
     <>
@@ -75,6 +75,7 @@ const HomePage = () => {
       <Homepage2 />
       <Services />
       <Pattners />
+      <Featured />
     </>
   );
 };

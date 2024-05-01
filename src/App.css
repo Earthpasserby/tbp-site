@@ -267,3 +267,14 @@
     margin-top: 20px;
   }
 }
+.feat-P {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 100%; /* Ensure logos fill their respective columns */
+  max-width: 100px; /* Limit the maximum width of logos */
+  margin: 10px; /* Adjust margin as needed */
+}
