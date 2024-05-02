@@ -18,6 +18,7 @@ import Experience from "./Components/Experience";
 import Testimonial from "./Components/Testimonial";
 import Knowledge from "./Components/Knowledge";
 import Join from "./Components/Join";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/Testimonial" element={<Testimonial />} />
           <Route path="/Knowledge" element={<Knowledge />} />
           <Route path="/Join" element={<Join />} />
+          <Route path="/Footer" element={<Footer />} />
         </Route>
       </Routes>
     </BrowserRouter>

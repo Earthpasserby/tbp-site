@@ -12,6 +12,7 @@ import Experience from "./Experience";
 import Testimonial from "./Testimonial";
 import Knowledge from "./Knowledge";
 import Join from "./Join";
+import Footer from "./Footer";
 
 const HomePage = () => {
   return (
@@ -22,7 +23,7 @@ const HomePage = () => {
           backgroundImage: "url('./bg1-img.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          minHeight: "90vh",
+          minHeight: "100vh",
         }}
       >
         <Navbar collapseOnSelect expand="lg" className="mx-5">
@@ -87,6 +88,7 @@ const HomePage = () => {
       <Testimonial />
       <Knowledge />
       <Join />
+      <Footer />
     </>
   );
 };
