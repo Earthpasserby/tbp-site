@@ -11,7 +11,7 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import Join from "./Join";
+import Footer from "./Footer";
 
 const Servic = () => {
   return (
@@ -50,7 +50,7 @@ const Servic = () => {
           <Col
             md={8}
             className="Servic1"
-            style={{ backgroundColor: "#161616", height: "70vh" }}
+            style={{ backgroundColor: "#161616", height: "72vh" }}
           >
             <div className="line2"></div>
             <h4>OUR SERVICES</h4>
@@ -242,7 +242,7 @@ const Servic = () => {
             </Col>
           </Row>
         </Container>
-        <Container className="sen">
+        <Container className="sen ">
           <Row>
             <Col md={6} className="paraghe">
               <div
@@ -302,7 +302,7 @@ const Servic = () => {
             </Col>
           </Row>
         </Container>
-        <Container className="sen">
+        <Container className="sen ">
           <Row>
             <Col md={6} className="paraghe">
               <div
@@ -332,7 +332,43 @@ const Servic = () => {
           </Row>
         </Container>
       </Container>
-      <Join className="cent1" />
+      <Container
+        fluid
+        className="cent1"
+        style={{
+          backgroundColor: "#FFF9F8",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          minHeight: "70vh",
+          marginTop: "100px",
+        }}
+      >
+        <Row className="centered-row">
+          <div className="join ">
+            <h4>Join us on our journey to excellence and innovation</h4>
+            <p>
+              Together, we'll shape the future of branding and business growth,
+              one success story at a time. Let's create meaningful impact and
+              inspire greatness.
+              <br />
+              <span style={{ color: "#FF3C00", fontWeight: "700px" }}>
+                Welcome to The Brand Plug family!
+              </span>
+            </p>
+            <Link to="/" style={{ textDecoration: "none" }}>
+              <div className=" LinkButton6 mt-4 mx-auto">
+                <Button type="btn" variant="Secondary">
+                  <span className="mx-2 spanButton">
+                    Get started with us
+                    <FaArrowRight />
+                  </span>
+                </Button>
+              </div>
+            </Link>
+          </div>
+        </Row>
+      </Container>
+      <Footer />
     </>
   );
 };

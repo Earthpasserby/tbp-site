@@ -721,12 +721,14 @@
     position: relative;
     margin-bottom: 270px;
   }
+
+  /*Servic page*/
   .Servic {
     flex-direction: column !important; /* Stack columns vertically */
   }
-
   .Servic1 {
     padding: 20px !important; /* Add padding to the left and right */
+    min-height: 100vh !important;
   }
 
   .Servic2 {
@@ -735,6 +737,74 @@
 
   .Servic2 img {
     margin-top: 20px !important; /* Increase margin-top for spacing */
+  }
+
+  .Servic1 p {
+    width: 297px !important;
+    height: 269px;
+    top: 173px;
+    left: 120px;
+    gap: 44px;
+    opacity: 0px;
+    font-family: "Montserrat";
+    font-size: 20px !important;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+    color: #fff;
+    margin-top: 20px;
+  }
+  .LinkButton4 {
+    width: 207px;
+    height: 52px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 50px;
+    background: #ff3c00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px !important;
+  }
+  .sett::after {
+    content: "";
+    position: absolute;
+    bottom: -100px !important;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: transparent !important;
+    clip-path: polygon(100% 100%, 20% 80%, -38% 100%) !important;
+  }
+  .Servic2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Servic2 img {
+    max-width: 100%;
+    margin-top: -290px !important; /* Adjust margin-top for downward movement */
+    margin-right: 15px !important;
+  }
+  .cent::after {
+    content: "";
+    position: absolute;
+    top: 2255px;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: white;
+    clip-path: polygon(100% 30%, -50% 40%, 100% 100%);
+  }
+  .cent1::after {
+    content: "";
+    position: absolute;
+    top: 4960px;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: #161616;
+    clip-path: polygon(100% 49%, -290% -43%, 100% -100%);
   }
 }
 
@@ -1305,12 +1375,12 @@
 .cent1::after {
   content: "";
   position: absolute;
-  top: 29955px;
+  top: 4960px;
   left: 0;
   width: 100%;
   height: 400px;
-  background: blue;
-  clip-path: polygon(100% 30%, -50% 40%, 100% 100%);
+  background: #161616;
+  clip-path: polygon(100% 49%, -290% -43%, 100% -100%);
 }
 .Contain2 {
   margin-top: 290px;
@@ -1454,4 +1524,5 @@
 }
 .sen {
   padding-top: 220px;
+  margin-bottom: -2px;
 }
