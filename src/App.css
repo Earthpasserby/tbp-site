@@ -6,6 +6,9 @@
 }
 
 /*HomePage Navbar content*/
+.AboutPage {
+  color: #000000;
+}
 
 .Nav link {
   color: white;
@@ -191,7 +194,7 @@
   font-family: "Montserrat";
   font-size: 40px;
   font-weight: 700;
-  line-height: 55px;
+  line-height: 95px;
   text-align: center;
 }
 @media only screen and (min-width: 360px) and (max-width: 992px) {
@@ -574,6 +577,48 @@
     width: 1353px;
     padding: 0 !important;
   }
+
+  /*ABoutus page*/
+
+  .About-us h4 {
+    font-family: "Montserrat";
+    font-size: 16px !important;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.15em;
+    text-align: center !important;
+    color: #ff3c00;
+    width: 110px !important;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 20px;
+  }
+  .About-us p {
+    font-family: "Montserrat";
+    font-size: 20px !important;
+    font-weight: 600;
+    line-height: 46px !important;
+    text-align: left;
+    color: #000000;
+    margin-top: 10px;
+  }
+
+  .line {
+    margin-top: 0;
+    position: absolute;
+    width: 25% !important;
+    height: 4px;
+    background-color: #ff3c00;
+  }
+  .About-us {
+    width: 400px !important;
+    left: 5px !important;
+    font-size: 42px !important;
+    gap: 44px;
+    opacity: 0px;
+    position: relative;
+    margin-bottom: 270px;
+  }
 }
 
 /*Featured page*/
@@ -877,7 +922,7 @@
   text-align: left;
   color: #ffffff;
   width: 376px;
-  padding: 70px;
+  padding: 100px;
 }
 .footer-content {
   text-align: center;
@@ -889,5 +934,116 @@
   font-size: 13px;
   font-weight: 500;
   line-height: 28px;
+  color: #ffffff;
+}
+
+/*ABoutus page*/
+.About-us h4 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0.15em;
+  text-align: left;
+  color: #ff3c00;
+  width: 110px;
+  height: 11px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 20px;
+}
+.About-us p {
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 46px;
+  text-align: left;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.About-us {
+  width: 996px;
+  height: 193px;
+  top: 73px;
+  left: 120px;
+  gap: 44px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 270px;
+}
+
+.line {
+  margin-top: 0;
+  position: absolute;
+  width: 10%;
+  height: 4px;
+  background-color: #ff3c00;
+}
+
+.para {
+  width: 647px;
+  height: 416px;
+  gap: 40px;
+  opacity: 0px;
+}
+
+.para p {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #363636;
+}
+
+.para h4 {
+  color: #000000;
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+}
+
+.mission {
+  width: 769px;
+  height: 272px;
+  top: 86px;
+  left: 118px;
+  padding-top: 100px;
+}
+.M-span {
+  width: 83px;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 500;
+
+  letter-spacing: 0.15em;
+  text-align: left;
+  color: #ff3c00;
+}
+.mission h4 {
+  width: 650px;
+  height: 45px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+  color: #ffffff;
+}
+.mission p {
+  width: 769px;
+
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
   color: #ffffff;
 }

@@ -19,6 +19,7 @@ import Testimonial from "./Components/Testimonial";
 import Knowledge from "./Components/Knowledge";
 import Join from "./Components/Join";
 import Footer from "./Components/Footer";
+import AboutPage from "./Components/AboutPage";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/Knowledge" element={<Knowledge />} />
           <Route path="/Join" element={<Join />} />
           <Route path="/Footer" element={<Footer />} />
+          <Route path="/AboutPage" element={<AboutPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
