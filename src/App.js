@@ -20,6 +20,7 @@ import Knowledge from "./Components/Knowledge";
 import Join from "./Components/Join";
 import Footer from "./Components/Footer";
 import AboutPage from "./Components/AboutPage";
+import Servic from "./Components/Servic";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="/Join" element={<Join />} />
           <Route path="/Footer" element={<Footer />} />
           <Route path="/AboutPage" element={<AboutPage />} />
+          <Route path="/Servic" element={<Servic />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -11,6 +11,9 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import Featured from "./Featured";
+import Join from "./Join";
+import Footer from "./Footer";
 
 const AboutPage = () => {
   return (
@@ -131,6 +134,9 @@ const AboutPage = () => {
           </Row>
         </Container>
       </Container>
+      <Featured />
+      <Join />
+      <Footer />
     </>
   );
 };
