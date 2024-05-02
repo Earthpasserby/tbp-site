@@ -11,6 +11,7 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import Join from "./Join";
 
 const Servic = () => {
   return (
@@ -180,40 +181,158 @@ const Servic = () => {
       </Container>
       <Container
         fluid
-        className="mt-4"
-        style={{ backgroundColor: "#161616", height: "70vh" }}
+        className="mt-4 cent"
+        style={{ backgroundColor: "#161616" }}
       >
-        <Container>
-          <Row className="sen">
-            <Col md={6} className="paragh">
+        <Container className="sen">
+          <Row>
+            <Col md={6} className="paraghe">
               <div
                 style={{
-                  backgroundImage: "url('./TWO.png')",
+                  backgroundImage: "url('./FOUR.png')",
+                  minHeight: "70px",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  width: "300px",
+                }}
+              >
+                <h4>Growth Strategies</h4>
+              </div>
+              <p>
+                Empower your brand's growth with tailored strategies designed to
+                understand, engage, and retain your audience effectively
+              </p>
+              <ul>
+                <li>Market Research and Analysis</li>
+                <li>Strategic Planning and Consulting</li>
+                <li>Lead Generation and Conversion Optimization</li>
+                <li>Customer Retention Strategies</li>
+              </ul>
+            </Col>
+            <Col md={6} className="paraghe-pic">
+              <Image src="/./ofc.png" className="img-fluid" />
+            </Col>
+          </Row>
+        </Container>
+
+        <Container className="sen">
+          <Row>
+            <Col md={6} className="paraghe-pic">
+              <Image src="/./lap1.png" className="img-fluid" />
+            </Col>
+            <Col md={6} className="paraghe">
+              <div
+                style={{
+                  backgroundImage: "url('./FIVE.png')",
+                  minHeight: "70px",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  width: "300px",
+                }}
+              >
+                <h4>Content Creation</h4>
+              </div>
+              <p>Elevate your brand with our content creation expertise</p>
+              <ul>
+                <li>Creative Writing and Copywriting</li>
+                <li>Blog Post Creation and Management</li>
+                <li>Video Production and Editing</li>
+                <li>Infographic Design</li>
+              </ul>
+            </Col>
+          </Row>
+        </Container>
+        <Container className="sen">
+          <Row>
+            <Col md={6} className="paraghe">
+              <div
+                style={{
+                  backgroundImage: "url('./SIX.png')",
                   minHeight: "100px",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  width: "300px",
+                }}
+              >
+                <h5>Media Planning and Buying</h5>
+              </div>
+              <p>
+                Maximize your reach and impact with our Media Planning and
+                Buying services.
+              </p>
+              <ul>
+                <li>Media Strategy Development</li>
+                <li>Advertising Campaign Planning and Execution</li>
+                <li>Budget Allocation and Optimization</li>
+                <li>Performance Analytics and Reporting</li>
+              </ul>
+            </Col>
+            <Col md={6} className="paraghe-pic">
+              <Image src="/./read.png" className="img-fluid" />
+            </Col>
+          </Row>
+        </Container>
+        <Container className="sen">
+          <Row>
+            <Col md={6} className="paraghe-pic">
+              <Image src="/./pitch.png" className="img-fluid" />
+            </Col>
+            <Col md={6} className="paraghe">
+              <div
+                style={{
+                  backgroundImage: "url('./SEVEN.png')",
+                  minHeight: "80px",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   width: "350px",
                 }}
               >
-                <h4>Digital Marketing Services</h4>
+                <h5>Public Relations (PR)</h5>
               </div>
               <p>
-                Elevate your brand with our comprehensive suite of branding
-                services.
+                Navigating the media landscape, managing crises, orchestrating
+                memorable events, and safeguarding your reputation
               </p>
               <ul>
-                <li>Social Media Marketing and Management</li>
-                <li>Content Marketing and Copywriting</li>
-                <li>Email Marketing Campaigns</li>
-                <li>Influencer Marketing</li>
+                <li>Media Relations and Press Releases</li>
+                <li>Crisis Communication Management</li>
+                <li>Event Planning and Coordination</li>
+                <li>Reputation Management</li>
               </ul>
             </Col>
-            <Col md={6} className="parag-pic">
-              <Image src="/./lap.png" className="img-fluid" />
+          </Row>
+        </Container>
+        <Container className="sen">
+          <Row>
+            <Col md={6} className="paraghe">
+              <div
+                style={{
+                  backgroundImage: "url('./EIGHT.png')",
+                  minHeight: "80px",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  width: "370px",
+                }}
+              >
+                <h5>Consulting Services</h5>
+              </div>
+              <p>
+                Elevate your strategy with personalized consultations. Enhance
+                your brand's visual identity with expert graphic design.
+              </p>
+              <ul>
+                <li>Business and Marketing Consultation</li>
+                <li>Graphic Design for Marketing Collateral</li>
+                <li>Workshops on Branding and Digital Marketing</li>
+              </ul>
+            </Col>
+            <Col md={6} className="paraghe-pic">
+              <Image src="/./sell.png" className="img-fluid" />
             </Col>
           </Row>
         </Container>
       </Container>
+      <Join className="cent1" />
     </>
   );
 };
