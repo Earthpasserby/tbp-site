@@ -92,10 +92,10 @@ const AboutPage = () => {
           </Row>
         </Container>
       </Container>
-      <Container fluid style={{ backgroundColor: "#161616", height: "100vh" }}>
+      <Container fluid style={{ backgroundColor: "#161616" }}>
         <Container>
           <Row className="mission">
-            <Col>
+            <Col xs={12} md={6}>
               <span className="M-span">MISSION</span>
               <h4>Our Mission Statement</h4>
               <p>
@@ -108,10 +108,14 @@ const AboutPage = () => {
                 dynamic and ever-evolving marketplace.
               </p>
             </Col>
+            <Col xs={12} md={6} className="About-pic">
+              <Image src="/./step.png" className="img-fluid" />
+            </Col>
           </Row>
-          <Row className="mission">
-            <Col>
-              <span className="M-span">VISION</span>
+
+          <Row className="mission2 ">
+            <Col xs={12} md={6}>
+              <span className="M-span2">VISION</span>
               <h4>Our Vision Statement</h4>
               <p>
                 Our vision at The Brand Plug is to be recognized as a pioneering
@@ -124,9 +128,6 @@ const AboutPage = () => {
                 stands as a beacon of inspiration and success in the industry
               </p>
             </Col>
-            <Image src="/./step.png" className="img-fluid" />
-
-            <Col></Col>
           </Row>
         </Container>
       </Container>
