@@ -1951,7 +1951,26 @@
   text-align: left;
 }
 .m1 {
-  margin-left: 160px;
+  margin-left: 130px;
+}
+
+.videoPlayer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 5px;
+  width: 1104px;
+  height: 393px;
+  top: 1180px;
+  left: 204px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+}
+.minAb{
+  margin-left: 87px;
+  margin-top: 70px;
 }
 /*Blog Page*/
 .Blog h4 {
