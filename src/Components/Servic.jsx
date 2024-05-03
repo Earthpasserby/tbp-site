@@ -63,10 +63,10 @@ const Servic = () => {
               our range of services below:
             </p>
             <Link to="/" style={{ textDecoration: "none" }}>
-              <div className=" LinkButton4 mt-4 mx-auto">
+              <div className=" LinkButton4 mt-4">
                 <Button type="btn" variant="Secondary">
                   <span className="mx-2 spanButton">
-                    Get started with us
+                    Contact us
                     <FaArrowRight />
                   </span>
                 </Button>
@@ -141,7 +141,7 @@ const Servic = () => {
                 <li>Influencer Marketing</li>
               </ul>
             </Col>
-            <Col md={6} className="parag-pic">
+            <Col md={6} className="parag-pic2">
               <Image src="/./lap.png" className="img-fluid" />
             </Col>
           </Row>
@@ -150,7 +150,7 @@ const Servic = () => {
       <Container fluid className="Contain2">
         <Container>
           <Row>
-            <Col md={6} className="parag-pic">
+            <Col md={6} className="parag">
               <Image src="/./lp.png" className="img-fluid" />
             </Col>
             <Col md={6} className="parag1">
@@ -181,12 +181,16 @@ const Servic = () => {
       </Container>
       <Container
         fluid
-        className="mt-4 cent"
-        style={{ backgroundColor: "#161616" }}
+        className="cent"
+        style={{
+          backgroundColor: "#161616",
+          marginTop: "300px",
+          minHeight: "100vh",
+        }}
       >
         <Container className="sen">
           <Row>
-            <Col md={6} className="paraghe">
+            <Col md={6} className="pag5">
               <div
                 style={{
                   backgroundImage: "url('./FOUR.png')",
@@ -209,7 +213,7 @@ const Servic = () => {
                 <li>Customer Retention Strategies</li>
               </ul>
             </Col>
-            <Col md={6} className="paraghe-pic">
+            <Col md={6} className="pag5">
               <Image src="/./ofc.png" className="img-fluid" />
             </Col>
           </Row>
@@ -217,17 +221,17 @@ const Servic = () => {
 
         <Container className="sen">
           <Row>
-            <Col md={6} className="paraghe-pic">
+            <Col md={6} className="pag1">
               <Image src="/./lap1.png" className="img-fluid" />
             </Col>
-            <Col md={6} className="paraghe">
+            <Col md={6} className="pag1">
               <div
                 style={{
                   backgroundImage: "url('./FIVE.png')",
-                  minHeight: "70px",
+                  minHeight: "80px",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
-                  width: "300px",
+                  width: "250px",
                 }}
               >
                 <h4>Content Creation</h4>
@@ -244,17 +248,17 @@ const Servic = () => {
         </Container>
         <Container className="sen ">
           <Row>
-            <Col md={6} className="paraghe">
+            <Col md={6} className="pag2">
               <div
                 style={{
                   backgroundImage: "url('./SIX.png')",
                   minHeight: "100px",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
-                  width: "300px",
+                  width: "250px",
                 }}
               >
-                <h5>Media Planning and Buying</h5>
+                <h4>Media Planning and Buying</h4>
               </div>
               <p>
                 Maximize your reach and impact with our Media Planning and
@@ -267,27 +271,27 @@ const Servic = () => {
                 <li>Performance Analytics and Reporting</li>
               </ul>
             </Col>
-            <Col md={6} className="paraghe-pic">
+            <Col md={6} className="pag2">
               <Image src="/./read.png" className="img-fluid" />
             </Col>
           </Row>
         </Container>
         <Container className="sen">
-          <Row>
-            <Col md={6} className="paraghe-pic">
+          <Row className="pag6">
+            <Col md={6} className="pag3">
               <Image src="/./pitch.png" className="img-fluid" />
             </Col>
-            <Col md={6} className="paraghe">
+            <Col md={6} className="pag3">
               <div
                 style={{
                   backgroundImage: "url('./SEVEN.png')",
-                  minHeight: "80px",
+                  minHeight: "60px",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
-                  width: "350px",
+                  width: "310px",
                 }}
               >
-                <h5>Public Relations (PR)</h5>
+                <h4>Public Relations (PR)</h4>
               </div>
               <p>
                 Navigating the media landscape, managing crises, orchestrating
@@ -302,19 +306,27 @@ const Servic = () => {
             </Col>
           </Row>
         </Container>
-        <Container className="sen ">
-          <Row>
-            <Col md={6} className="paraghe">
+        <Container
+          className="sen "
+          style={{
+            backgroundColor: "#161616",
+           
+            minHeight: "55vh",
+          }}
+        >
+          
+          <Row className="pag">
+            <Col md={6} className="pag4">
               <div
                 style={{
                   backgroundImage: "url('./EIGHT.png')",
                   minHeight: "80px",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
-                  width: "370px",
+                  width: "340px",
                 }}
               >
-                <h5>Consulting Services</h5>
+                <h4>Consulting Services</h4>
               </div>
               <p>
                 Elevate your strategy with personalized consultations. Enhance
@@ -326,7 +338,7 @@ const Servic = () => {
                 <li>Workshops on Branding and Digital Marketing</li>
               </ul>
             </Col>
-            <Col md={6} className="paraghe-pic">
+            <Col md={6} className="pag4">
               <Image src="/./sell.png" className="img-fluid" />
             </Col>
           </Row>
@@ -340,7 +352,8 @@ const Servic = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           minHeight: "70vh",
-          marginTop: "100px",
+          paddingTop: "10px",
+          marginTop: "10px",
         }}
       >
         <Row className="centered-row">

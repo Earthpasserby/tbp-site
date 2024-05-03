@@ -733,6 +733,7 @@
 
   .Servic2 {
     padding: 20px !important; /* Add padding to the left and right */
+    padding: 20px !important; /* Add padding to the left and right */
   }
 
   .Servic2 img {
@@ -774,7 +775,7 @@
     width: 100%;
     height: 400px;
     background: transparent !important;
-    clip-path: polygon(100% 100%, 20% 80%, -38% 100%) !important;
+    clip-path: polygon(0) !important;
   }
   .Servic2 {
     display: flex;
@@ -786,25 +787,124 @@
     margin-top: -290px !important; /* Adjust margin-top for downward movement */
     margin-right: 15px !important;
   }
+  .parag h4 {
+    padding-top: 25px;
+    font-family: "Montserrat";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42.67px;
+    text-align: left;
+    color: #000000;
+    margin-top: 20px !important;
+  }
+  .paragh {
+    width: 630px;
+    height: 45px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #363636;
+    margin-top: 150px !important;
+  }
+  .paragh h4 {
+    width: 484px !important;
+    height: 25px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Montserrat";
+    font-size: 25px !important;
+    font-weight: 700;
+    line-height: 42.67px;
+    text-align: left;
+    color: #000000;
+    padding-top: 25px;
+    margin-top: 420px !important;
+  }
+
+  .parag-pic img {
+    margin-top: 4px !important; /* Adjust margin-top for downward movement */
+  }
+  .parag-pic2 img {
+    margin-top: 150px !important; /* Adjust margin-top for downward movement */
+  }
+  .parag img {
+    margin-top: 330px !important; /* Adjust margin-top for downward movement */
+  }
+  .parag1 h4 {
+    padding-top: 10px !important;
+    font-family: "Montserrat";
+    font-size: 27px !important;
+    font-weight: 700;
+    line-height: 42.67px;
+    text-align: left;
+    width: 380px !important;
+    height: 68px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 520px !important;
+    color: #000000;
+  }
+  .cent {
+    margin-top: 890px !important;
+    min-height: 500vh !important;
+  }
+  .cent1 {
+    padding-top: 80px !important;
+  }
   .cent::after {
     content: "";
     position: absolute;
-    top: 2255px;
+    top: 0 !important;
     left: 0;
     width: 100%;
     height: 400px;
-    background: white;
-    clip-path: polygon(100% 30%, -50% 40%, 100% 100%);
+    background: none !important;
+    /* clip-path: polygon(100% 80%, 990% 119%, -78% 32%) !important; */
   }
   .cent1::after {
     content: "";
     position: absolute;
-    top: 4960px;
+    top: 0 !important;
     left: 0;
     width: 100%;
     height: 400px;
-    background: #161616;
-    clip-path: polygon(100% 49%, -290% -43%, 100% -100%);
+    background: none !important;
+    /* clip-path: polygon(100% 49%, -290% -43%, 100% -100%); */
+  }
+  .pag5 h4,
+  .pag3 h4,
+  .pag4 h4 {
+    font-size: 22px !important;
+  }
+  .pag2 h4 {
+    width: 509px !important;
+    height: 25px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Montserrat";
+    font-size: 22px !important;
+    font-weight: 700;
+    line-height: 42.67px;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 30px;
+    margin-top: 45px;
+  }
+  .pag2 img {
+    margin-top: 290px;
+  }
+  .pag4 img {
+    margin-top: 290px;
+  }
+  .pag6 {
+    margin-top: 250px;
+  }
+  .pag7 {
+    margin-top: 100px;
   }
 }
 
@@ -1343,6 +1443,27 @@
   color: #ff3c00;
   margin-top: 50px;
 }
+.LinkButton4 {
+  width: 207px;
+  padding: 5px 5px 10px 10px;
+  gap: 10px;
+  border-radius: 50px;
+  opacity: 0px;
+  background: #ffffff;
+  text-align: center;
+}
+.LinkButton4 .spanButton {
+  color: #ff3c00;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: left;
+  width: 90px;
+  height: 11px;
+  gap: 0px;
+  opacity: 0px;
+}
 
 .line2 {
   margin-top: 20px;
@@ -1365,25 +1486,26 @@
 .cent::after {
   content: "";
   position: absolute;
-  top: 2255px;
+  top: 1705px;
   left: 0;
   width: 100%;
   height: 400px;
   background: white;
-  clip-path: polygon(100% 30%, -50% 40%, 100% 100%);
+  clip-path: polygon(100% 90%, 100% 40%, -100% 20%);
 }
 .cent1::after {
   content: "";
   position: absolute;
-  top: 4960px;
+  top: 3750px;
   left: 0;
   width: 100%;
   height: 400px;
   background: #161616;
   clip-path: polygon(100% 49%, -290% -43%, 100% -100%);
 }
+
 .Contain2 {
-  margin-top: 290px;
+  margin-top: 105px;
 }
 .parag {
   width: 588px;
@@ -1477,7 +1599,7 @@
 }
 
 .paraghe h5 {
-  width: 509px !important;
+  width: 509px;
   height: 25px;
   gap: 0px;
   opacity: 0px;
@@ -1505,6 +1627,9 @@
 .parag li::marker {
   color: red; /* Change the color of the bullet point */
 }
+.parag1 li::marker {
+  color: red; /* Change the color of the bullet point */
+}
 .paragh li::marker {
   color: red; /* Change the color of the bullet point */
 }
@@ -1519,10 +1644,354 @@
 }
 .paraghe-pic img {
   max-width: 100%;
-  margin-top: -10px; /* Adjust margin-top for downward movement */
+  margin-top: 20px; /* Adjust margin-top for downward movement */
   margin-right: 100px;
 }
 .sen {
-  padding-top: 220px;
-  margin-bottom: -2px;
+  padding-top: 120px;
+}
+
+.pag1,
+.pag2,
+.pag3,
+.pag4 {
+  width: 588px;
+  height: 220px;
+  gap: 40px;
+  opacity: 0px;
+}
+.pag1 h4 {
+  width: 588px;
+  height: 25px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42.67px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.pag2 h4 {
+  width: 509px;
+  height: 25px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42.67px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 30px;
+}
+.pag3 h4 {
+  width: 588px;
+  height: 25px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42.67px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 10px;
+}
+.pag4 h4 {
+  width: 588px;
+  height: 25px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42.67px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.pag5 h4 {
+  width: 333px;
+  height: 25px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42.67px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 15px;
+}
+
+.pag1,
+.pag2,
+.pag3,
+.pag4,
+.pag5 {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #ffffff;
+  width: 630px;
+  gap: 0px;
+  opacity: 0px;
+}
+.pag1 li::marker,
+.pag2 li::marker,
+.pag3 li::marker,
+.pag4 li::marker,
+.pag5 li::marker {
+  color: red; /* Change the color of the bullet point */
+  font-size: 25px;
+}
+
+/*ProjectMain page*/
+.linkButton {
+  width: 267px;
+  padding: 5px 5px 10px 10px;
+  gap: 10px;
+  border-radius: 50px;
+  opacity: 0px;
+  text-align: center;
+  border: 2px solid #ff3c00;
+}
+.linkButton .spanButton {
+  color: #ff3c00;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.07px;
+  text-align: center;
+  width: 206px;
+  height: 11px;
+  gap: 0px;
+  opacity: 0px;
+}
+.linkButton1 .spanButton {
+  width: 84px;
+  height: 11px;
+  gap: 0px;
+  opacity: 0px;
+  color: #ffb199;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.29px;
+  text-align: left;
+}
+.ProjectMain h4 {
+  width: 650px;
+  height: 25px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.15em;
+  text-align: left;
+  color: #ffffff;
+}
+.ProjectMain span {
+  width: 106px;
+  height: 10px;
+  gap: 0px;
+  opacity: 0px;
+  color: #ff3c00;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0.15em;
+  text-align: left;
+}
+.ProjectMain {
+  width: 752px;
+  height: 176px;
+  top: 882px;
+  left: 204px;
+  gap: 40px;
+  opacity: 0px;
+}
+.ProjectMain p {
+  width: 752px;
+  height: 77px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #ffffff;
+}
+.projectMain {
+  background: #161616;
+  min-width: 100vh;
+}
+.card {
+  width: 348px;
+  gap: 20px;
+  opacity: 0px;
+}
+.pM {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.pM span {
+  width: 106px;
+  height: 10px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  color: #ff3c00;
+}
+
+.pM h4 {
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: center;
+  color: #161616;
+}
+
+.pM {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  color: #363636;
+}
+.boc1 {
+  width: 318px;
+  height: 331px;
+  top: 360px;
+  left: 664px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+/*MainABout Page*/
+.MainAbout p {
+  width: 1104px;
+  height: 429px;
+  top: 674px;
+  left: 204px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #363636;
+}
+.MainAbout h5 {
+  width: 1104px;
+  height: 45px;
+  top: 595px;
+  left: 204px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #363636;
+}
+
+.MainAbout {
+  margin-top: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1104px;
+  height: 429px;
+  top: 674px;
+  left: 204px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.MinAbout {
+  margin-top: 70px;
+  width: 1104px;
+  height: 429px;
+  top: 1734px;
+  left: 204px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #363636;
+}
+.MinAbout h5 {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+.m1 {
+  margin-left: 160px;
+}
+/*Blog Page*/
+.Blog h4 {
+  width: 110px;
+  height: 19px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0.15em;
+  text-align: left;
+  color: #ff3c00;
+}
+.Blog p {
+  width: 732px;
+  height: 74px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #000000;
+}
+.line1 {
+  margin-top: 0;
+  position: absolute;
+  width: 70px;
+  height: 4px;
+  background-color: #ff3c00;
+}
+.Blog {
+  width: 799px;
+  height: 159px;
+  top: 173px;
+  left: 120px;
+  gap: 44px;
+  opacity: 0px;
+  padding-top: 50px;
 }

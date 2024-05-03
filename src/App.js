@@ -21,6 +21,11 @@ import Join from "./Components/Join";
 import Footer from "./Components/Footer";
 import AboutPage from "./Components/AboutPage";
 import Servic from "./Components/Servic";
+import ProjectMain from "./Components/ProjectMain";
+import MainAbout from "./Components/MainAbout";
+import Blog from "./Components/Blog";
+import BlogDetail from "./Components/BlogDetail";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -40,6 +45,11 @@ function App() {
           <Route path="/Footer" element={<Footer />} />
           <Route path="/AboutPage" element={<AboutPage />} />
           <Route path="/Servic" element={<Servic />} />
+          <Route path="/ProjectMain" element={<ProjectMain />} />
+          <Route path="/MainAbout" element={<MainAbout />} />
+          <Route path="/Blog" element={<Blog />} />
+          <Route path="/BlogDetail" element={<BlogDetail />} />
+          <Route path="/Contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>
