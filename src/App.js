@@ -26,6 +26,7 @@ import MainAbout from "./Components/MainAbout";
 import Blog from "./Components/Blog";
 import BlogDetail from "./Components/BlogDetail";
 import Contact from "./Components/Contact";
+import Pictures from "./Components/Pictures";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
           <Route path="/Blog" element={<Blog />} />
           <Route path="/BlogDetail" element={<BlogDetail />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Pictures" element={<Pictures />} />
         </Route>
       </Routes>
     </BrowserRouter>

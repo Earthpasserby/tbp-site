@@ -2637,3 +2637,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+.pic-cont{
+  width: 1200px;
+  margin: 20px auto;
+  columns: 4;
+  column-gap: 40px;
+}
+.grid-wrapper{
+
+}
