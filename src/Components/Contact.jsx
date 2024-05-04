@@ -10,9 +10,12 @@ import {
   Form,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { MdMail } from "react-icons/md";
+import { FaPhone } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
+import Join from "./Join";
 
 const Contact = () => {
   return (
@@ -48,6 +51,7 @@ const Contact = () => {
       </Container>
       <Container
         fluid
+        className="Contact-B"
         style={{
           backgroundImage: "url('./call.png')",
           backgroundSize: "cover",
@@ -56,96 +60,81 @@ const Contact = () => {
         }}
       >
         <Container>
-          {/* <Col xs={12} md={6} className="Contact-details">
-            <Row>
-              <Col>
-                <div className="line"></div>
-                <h4>GET IN TOUCH!</h4>
-                <p>
-                  We're here to help! Reach out to us with any questions,
-                  inquiries, or collaboration opportunities. Let's start a
-                  conversation and see how we can work together to achieve your
-                  goals
-                </p>
+          <Row className="Contact">
+            <Col xs={12} md={6} className="Contact-details">
+              <Row>
                 <Col>
-                  <h5>OR</h5>
-                  <p>Call us or send us an email</p>
-                  <p>+234 803 855 3554</p>
-                  <p> thebrandplugng@gmail.com</p>
-                  <div className="mx-1 social-media-links">
-                    <p>OUR SOCIAL MEDIA</p>
-                    <Image src="/./Facebook.png" className="img-fluid" />
-                    <Image src="/./x.png" className="img-fluid" />
-                    <Image src="/./ig.png" className="img-fluid" />
-                  </div>
+                  <div className="line"></div>
+                  <h4>GET IN TOUCH!</h4>
+                  <p className="Contact-p">
+                    We're here to help! Reach out to us with any questions,
+                    inquiries, or collaboration opportunities. Let's start a
+                    conversation and see how we can work together to achieve
+                    your goals
+                  </p>
+                  <Col className="Contact-Address">
+                    <h5>OR</h5>
+                    <p className="p1">Call us or send us an email</p>
+                    <p className="p2">
+                      <FaPhone className="mx-2 contact-Icon" />
+                      +234 803 855 3554
+                    </p>
+                    <p className="p3">
+                       <MdMail className="mx-1 contact-Icon" />
+                      thebrandplugng@gmail.com
+                    </p>
+                    <div className="mx-1 social-media-links">
+                      <p className="p4">OUR SOCIAL MEDIA</p>
+                      <Image src="/./Facebook.png" className="img-fluid " />
+                      <Image src="/./x.png" className="img-fluid" />
+                      <Image src="/./ig.png" className="img-fluid" />
+                    </div>
+                  </Col>
                 </Col>
-              </Col>
-            </Row>
-          </Col> */}
-          <Col className="Contact-form" xs={12} md={6}>
-            <Form>
-              <Form.Group className="mb-2" controlId="formBasicEmail">
-                <Form.Label>Name</Form.Label>
-                <Form.Control type="email" placeholder="Enter your name" />
-              </Form.Group>
-              <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" />
-              </Form.Group>
+              </Row>
+            </Col>
+            <Col className="Contact-form" xs={12} md={6}>
+              <Form className="contact-form">
+                <Form.Group className="mb-2" controlId="formBasicEmail">
+                  <Form.Label>Name</Form.Label>
+                  <Form.Control type="email" placeholder="Enter your name" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                  <Form.Label>Email address</Form.Label>
+                  <Form.Control type="email" placeholder="Enter email" />
+                </Form.Group>
 
-              <Form.Group controlId="floatingTextarea2" label="Comments">
-                <Form.Control
-                  as="textarea"
-                  placeholder="Leave a comment here"
-                  style={{ height: "100px" }}
-                />
-              </Form.Group>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <div className=" linkButton mx-auto">
-                  <Button
-                    type="btn"
-                    variant="Secondary"
-                    className="d-flex justify-content-center"
+                <Form.Group controlId="floatingTextarea2" label="Comments">
+                  <Form.Control
+                    as="textarea"
+                    placeholder="Leave a comment here"
+                    style={{ height: "200px" }}
+                  />
+                </Form.Group>
+                <Link to="/" style={{ textDecoration: "none" }}>
+                  <div
+                    className=" LinkButton mx-auto mt-3 Contact-Button"
+                    style={{ width: "427px" }}
                   >
-                    <span className="mx-2 spanButton ">OUR PROJECTS</span>
-                  </Button>
-                </div>
-              </Link>
-            </Form>
-          </Col>
-          <Col className="Contact-form" xs={12} md={6}>
-            <Form>
-              <Form.Group className="mb-2" controlId="formBasicEmail">
-                <Form.Label>Name</Form.Label>
-                <Form.Control type="email" placeholder="Enter your name" />
-              </Form.Group>
-              <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" />
-              </Form.Group>
-
-              <Form.Group controlId="floatingTextarea2" label="Comments">
-                <Form.Control
-                  as="textarea"
-                  placeholder="Leave a comment here"
-                  style={{ height: "100px" }}
-                />
-              </Form.Group>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <div className=" linkButton mx-auto">
-                  <Button
-                    type="btn"
-                    variant="Secondary"
-                    className="d-flex justify-content-center"
-                  >
-                    <span className="mx-2 spanButton ">OUR PROJECTS</span>
-                  </Button>
-                </div>
-              </Link>
-            </Form>
-          </Col>
+                    <Button
+                      type="btn"
+                      variant="Secondary"
+                      className="d-flex justify-content-center"
+                    >
+                      <span className="mx-2 spanButton ">
+                        Submit
+                        <FaArrowRight className="mx-2" />
+                      </span>
+                    </Button>
+                  </div>
+                </Link>
+              </Form>
+            </Col>
+          </Row>
         </Container>
       </Container>
+      <Join />
+      <Footer />
     </>
   );
 };
