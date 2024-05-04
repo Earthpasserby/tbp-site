@@ -7,10 +7,11 @@ import {
   Navbar,
   Nav,
   Col,
-  Card,
+  Stack,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { FaArrowRight } from "react-icons/fa6";
+import { FaArrowLeftLong } from "react-icons/fa6";
+
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 
@@ -51,20 +52,31 @@ const BlogDetail = () => {
         style={{ backgroundColor: "#DC370414", height: "0.9vh" }}
       ></Container>
       <Container fluid>
-        <Container className="">
-          <Row className="BlogD">
-            <Col md={6}>
+        <Container className=" BlogD">
+          <Row>
+            <Col md={6} className="BlogD1">
+              <div className="d-flex justify-space-between Blogd">
+                <div>
+                  <Image src="/./Profile.png" className="img-fluid" />
+                </div>
+                <Stack direction="horizontal" gap={3} className="mx-2">
+                  <span style={{ color: "#FF3C00" }}>Daniel Onakpa</span>
+                  <span style={{ color: "#8F8F8F" }}> 5 min read</span>
+                </Stack>
+              </div>
               <h4>
                 Mastering the Art of Digital Marketing: Proven Tactics for
                 Online Success
               </h4>
               <p>
-                Stay informed, inspired, and ahead of the curve. Explore our
-                insightful articles, tips, and industry updates to fuel your
-                journey towards success
+                In today's digital age, mastering the art of digital marketing
+                is essential for any business striving for online success. In
+                this blog post, we'll explore some proven tactics and strategies
+                that can help businesses elevate their digital marketing efforts
+                and achieve remarkable results.
               </p>
             </Col>
-            <Col md={6}>
+            <Col md={6} className="BlogD2">
               <Image src="/./trend.png" className="img-fluid" />
             </Col>
           </Row>
@@ -73,77 +85,72 @@ const BlogDetail = () => {
       </Container>
 
       <Container fluid>
-        <Container>
-          <Container className="">
-            <Row>
-              <Col>
-                <h5>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  tempor ligula eu felis porta, nec volutpat ligula bibendum.
-                </h5>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  tempor ligula eu felis porta, nec volutpat ligula bibendum.
-                  Integer ultricies ex et libero efficitur, ac tristique odio
-                  fermentum. Nullam non ante a nibh venenatis dictum. Nulla id
-                  sollicitudin neque. Fusce eleifend odio nec ante consequat,
-                  sit amet tincidunt justo consectetur. Duis viverra, justo id
-                  ultricies ultricies, ipsum orci tempor ex, id euismod turpis
-                  nisi eget diam. Sed eget est eget dui volutpat ullamcorper ac
-                  ac magna. Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit. Sed tempor ligula eu felis porta, nec volutpat ligula
-                  bibendum. Integer ultricies ex et libero efficitur, ac
-                  tristique odio fermentum. Nullam non ante a nibh venenatis
-                  dictum. Nulla id sollicitudin neque. Fusce eleifend odio nec
-                  ante consequat, sit amet tincidunt justo consectetur. Duis
-                  viverra, justo id ultricies ultricies, ipsum orci tempor ex,
-                  id euismod turpis nisi eget diam. Sed eget est eget dui
-                  volutpat ullamcorper ac ac magna. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit. Sed tempor ligula eu felis porta,
-                  nec volutpat ligula bibendum. Integer ultricies ex et libero
-                  efficitur, ac tristique odio fermentum. Nullam non ante a nibh
-                  venenatis dictum. Nulla id sollicitudin neque. Fusce eleifend
-                  odio nec ante consequat, sit amet tincidunt justo consectetur.
-                  Duis viverra, justo id ultricies ultricies, ipsum orci tempor
-                  ex, id euismod turpis nisi eget diam. Sed eget est eget dui
-                  volutpat ullamcorper ac ac magna.
-                </p>
-              </Col>
-            </Row>
+        <Container className="Blog-D">
+          <Row>
+            <Col className="">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                tempor ligula eu felis porta, nec volutpat ligula bibendum.
+                Integer ultricies ex et libero efficitur, ac tristique odio
+                fermentum. Nullam non ante a nibh venenatis dictum. Nulla id
+                sollicitudin neque. Fusce eleifend odio nec ante consequat, sit
+                amet tincidunt justo consectetur. Duis viverra, justo id
+                ultricies ultricies, ipsum orci tempor ex, id euismod turpis
+                nisi eget diam. Sed eget est eget dui volutpat ullamcorper ac ac
+                magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed tempor ligula eu felis porta, nec volutpat ligula bibendum.
+                Integer ultricies ex et libero efficitur, ac tristique odio
+                fermentum. Nullam non ante a nibh venenatis dictum. Nulla id
+                sollicitudin neque. Fusce eleifend odio nec ante consequat, sit
+                amet tincidunt justo consectetur. Duis viverra, justo id
+                ultricies ultricies, ipsum orci tempor ex, id euismod turpis
+                nisi eget diam. Sed eget est eget dui volutpat ullamcorper ac ac
+                magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed tempor ligula eu felis porta, nec volutpat ligula bibendum.
+                Integer ultricies ex et libero efficitur, ac tristique odio
+                fermentum. Nullam non ante a nibh venenatis dictum. Nulla id
+                sollicitudin neque. Fusce eleifend odio nec ante consequat, sit
+                amet tincidunt justo consectetur. Duis viverra, justo id
+                ultricies ultricies, ipsum orci tempor ex, id euismod turpis
+                nisi eget diam. Sed eget est eget dui volutpat ullamcorper ac ac
+                magna.
+              </p>
+            </Col>
+          </Row>
 
-            <Row>
-              <Col md={6}>
-                <Image src="/./trend2.png" className="img-fluid" />
-              </Col>
-              <Col md={6}>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  tempor ligula eu felis porta, nec volutpat ligula bibendum.
-                  Integer ultricies ex et libero efficitur, ac tristique odio
-                  fermentum. Nullam non ante a nibh venenatis dictum. Nulla id
-                  sollicitudin neque. Fusce eleifend odio nec ante consequat,
-                  sit amet tincidunt justo consectetur. Duis viverra, justo id
-                  ultricies ultricies, ipsum orci tempor ex, id euismod turpis
-                  nisi eget diam. Sed eget est eget dui volutpat ullamcorper ac
-                  ac magna.Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit. Sed tempor ligula eu felis porta, nec volutpat ligula
-                  bibendum. Integer ultricies ex et libero efficitur, ac
-                  tristique odio fermentum. Nullam non ante a nibh venenatis
-                  dictum. Nulla id sollicitudin neque. Fusce eleifend odio nec
-                  ante consequat, sit amet tincidunt justo consectetur. Duis
-                  viverra, justo id ultricies ultricies, ipsum orci tempor ex,
-                  id euismod turpis nisi eget diam. Sed eget est eget dui
-                  volutpat ullamcorper ac ac magna.Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit. Sed tempor ligula eu felis porta,
-                  nec volutpat ligula bibendum. Integer ultricies ex et libero
-                  efficitur, ac tristique odio fermentum. Nullam non ante a nibh
-                  venenatis dictum. Nulla id sollicitudin neque.
-                </p>
-              </Col>
-            </Row>
-          </Container>
+          <Row className="Blog-D2">
+            <Col md={6} className="Blog-D3">
+              <Image src="/./trend2.png" className="img-fluid" />
+            </Col>
+            <Col md={6} className="Blog-D4">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                tempor ligula eu felis porta, nec volutpat ligula bibendum.
+                Integer ultricies ex et libero efficitur, ac tristique odio
+                fermentum. Nullam non ante a nibh venenatis dictum. Nulla id
+                sollicitudin neque. Fusce eleifend odio nec ante consequat, sit
+                amet tincidunt justo consectetur. Duis viverra, justo id
+                ultricies ultricies, ipsum orci tempor ex, id euismod turpis
+                nisi eget diam. Sed eget est eget dui volutpat ullamcorper ac ac
+                magna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed tempor ligula eu felis porta, nec volutpat ligula bibendum.
+                Integer ultricies ex et libero efficitur, ac tristique odio
+                fermentum. Nullam non ante a nibh venenatis dictum. Nulla id
+                sollicitudin neque. Fusce eleifend odio nec ante consequat, sit
+                amet tincidunt justo consectetur. Duis viverra, justo id
+                ultricies ultricies, ipsum orci tempor ex, id euismod turpis
+                nisi eget diam. Sed eget est eget dui volutpat ullamcorper ac ac
+                magna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed tempor ligula eu felis porta, nec volutpat ligula bibendum.
+                Integer ultricies ex et libero efficitur, ac tristique odio
+                fermentum. Nullam non ante a nibh venenatis dictum. Nulla id
+                sollicitudin neque.
+              </p>
+            </Col>
+          </Row>
         </Container>
       </Container>
+      <Footer />
     </>
   );
 };

@@ -49,7 +49,7 @@ const ProjectMain = () => {
       <Container
         fluid
         style={{
-          backgroundImage: "url('./bg1-img.png')",
+          backgroundImage: "url('./bot.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           minHeight: "80vh",

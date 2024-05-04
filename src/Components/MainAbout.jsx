@@ -49,7 +49,7 @@ const MainAbout = () => {
       <Container
         fluid
         style={{
-          backgroundImage: "url('/./m1.png')",
+          backgroundImage: "url('/./mn.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           minHeight: "80vh",

@@ -9,6 +9,9 @@
 .AboutPage {
   color: #000000;
 }
+.topleft {
+  color: #000000;
+}
 
 .Nav link {
   color: white;
@@ -1087,6 +1090,74 @@
     padding: 0px 43px 0px 44px;
     gap: 0px;
     border: 1px 0px 0px 0px;
+    opacity: 0px;
+  }
+
+  /*BlogD page*/
+  .BlogD1 h4 {
+    font-family: "Montserrat";
+    font-size: 20px !important;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    width: 357px !important;
+    height: 52px;
+    gap: 0px;
+    opacity: 0px;
+    color: #000000;
+  }
+  .BlogD1 p {
+    font-family: "Montserrat";
+    font-size: 17px !important;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #363636;
+    width: 330px !important;
+    height: 141px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 50px !important;
+  }
+
+  .BlogD2 {
+    width: 457px;
+    height: 326px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    margin-bottom: 40px;
+  }
+  .Blog-D {
+    margin-top: 100px;
+    width: 357px !important;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #363636;
+  }
+
+  .Blog-D4 {
+    width: 681px;
+    height: 1200px !important;
+    top: 1141px;
+    left: 627px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: -250px !important;
+  }
+  .Blog-D3 img {
+    margin-left: -10px !important;
+    width: 357px;
+    height: 336px;
+    top: 1636px;
+    left: 18px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
     opacity: 0px;
   }
 }
@@ -2287,3 +2358,110 @@
   border: 1px 0px 0px 0px;
   opacity: 0px;
 }
+
+/*BlogDetail Page*/
+.BlogD {
+  width: 1104px;
+  height: 326px;
+  gap: 59px;
+  opacity: 0px;
+  margin-top: 90px;
+}
+.BlogD1 span {
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+}
+
+.BlogD1 {
+  width: 588px;
+  height: 283px;
+  gap: 30px;
+  opacity: 0px;
+}
+.BlogD1 h4 {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: left;
+  width: 550px;
+  height: 52px;
+  gap: 0px;
+  opacity: 0px;
+  color: #000000;
+}
+.BlogD1 p {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #363636;
+  width: 588px;
+  height: 141px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 20px;
+}
+
+.BlogD2 {
+  width: 457px;
+  height: 326px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+  margin-bottom: 40px;
+}
+.Blog-D {
+  margin-top: 100px;
+  width: 1104px;
+
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #363636;
+}
+
+.Blog-D4 {
+  width: 681px;
+  height: 525px;
+  top: 1141px;
+  left: 627px;
+  gap: 0px;
+  opacity: 0px;
+}
+.Blog-D3 {
+  width: 391px;
+  height: 625px;
+  top: 1129px;
+  left: 204px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+
+/*Contact Page*/
+/* .Contact-details {
+  width: 508px;
+  height: 195px;
+  top: 117px;
+  left: 208px;
+  gap: 44px;
+  opacity: 0px;
+}
+.Contact-form {
+  width: 503px;
+  height: 672px;
+  top: 103px;
+  left: 809px;
+  gap: 0px;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;
+} */
