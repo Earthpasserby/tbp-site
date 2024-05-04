@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Image, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { FaArrowRight } from "react-icons/fa6";
+import { FaAngleUp } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -9,6 +9,10 @@ const Footer = () => {
     <>
       <footer className="footer">
         <Container fluid style={{ backgroundColor: "#161616" }}>
+          <div className="topIcon">
+            <FaAngleUp className="Icontop" />
+          </div>
+
           <Row className="centered-row2 justify-content-center">
             <Col md={5} className="mt-5">
               <Image src="/./The Brand Plug Logo.png" className="img-fluid" />
@@ -46,6 +50,7 @@ const Footer = () => {
                 <p>Contact Us</p>
               </div>
             </Col>
+            <hr className="FooterLine" />
 
             <div className="footer-content">
               <p className="copyright">Copyright © 2024. The Brand Plug</p>

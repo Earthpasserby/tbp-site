@@ -10,7 +10,7 @@ import {
   Card,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { FaArrowRight } from "react-icons/fa6";
+import { FaArrowLeftLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 
@@ -54,7 +54,18 @@ const MainAbout = () => {
           backgroundPosition: "center",
           minHeight: "80vh",
         }}
-      ></Container>
+      >
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <div className="MainButton  topleft">
+            <Button type="btn" variant="Secondary">
+              <span className="mx-2 spanButton">
+                <FaArrowLeftLong className="mx-2" />
+                Back
+              </span>
+            </Button>
+          </div>
+        </Link>
+      </Container>
       <Container fluid>
         <Container className="MainAbout">
           <Row>
@@ -94,7 +105,7 @@ const MainAbout = () => {
           </Row>
         </Container>
       </Container>
-      <Container fluid >
+      <Container fluid>
         <Container className="videoPlayer ">
           <video
             controls

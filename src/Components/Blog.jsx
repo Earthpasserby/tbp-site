@@ -8,11 +8,15 @@ import {
   Nav,
   Col,
   Card,
+  Tabs,
+  Tab,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { FaArrowDownLong } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
+import Join from "./Join";
 
 const Blog = () => {
   return (
@@ -53,7 +57,7 @@ const Blog = () => {
       <Container fluid>
         <Container className="">
           <Row className="Blog">
-            <Col md={8}>
+            <Col md={7} className="Blog-blog">
               <div className="line1"></div>
               <h4>BLOG</h4>
               <p>
@@ -62,320 +66,380 @@ const Blog = () => {
                 journey towards success
               </p>
             </Col>
-            <Col md={4}></Col>
+            <Col md={5} className="Blog-form">
+              <form action="#">
+                <div className="form-box">
+                  <input
+                    type="text"
+                    name="EmailAddress"
+                    placeholder="Enter Your Email Address"
+                  />
+                  <button type="submit">Subscribe</button>
+                </div>
+              </form>
+            </Col>
           </Row>
         </Container>
       </Container>
-      <Container>
-        <Row className="mt-5">
-          <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="/./men.png" className="img-fluid " />
-
-              <Card.Text>
-                <p>
-                  Mastering the Art of Digital Marketing: Proven Tactics for
-                  Online Success
-                </p>
-              </Card.Text>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <div className=" linkButton1 ">
-                  <Button type="btn" variant="Secondary">
-                    <span className="mx-2 spanButton">
-                      Continue Reading
-                      <FaArrowRight className="mx-2" />
-                    </span>
-                  </Button>
-                </div>
-              </Link>
-            </Card>
-          </Col>
-          <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="/./bag1.png" className="img-fluid " />
-
-              <Card.Text>
-                <p>
-                  Mastering the Art of Digital Marketing: Proven Tactics for
-                  Online Success
-                </p>
-              </Card.Text>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <div className=" linkButton1 ">
-                  <Button type="btn" variant="Secondary">
-                    <span className="mx-2 spanButton">
-                      Continue Reading
-                      <FaArrowRight className="mx-2" />
-                    </span>
-                  </Button>
-                </div>
-              </Link>
-            </Card>
-          </Col>
-          <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="/./cadh.png" className="img-fluid " />
-
-              <Card.Text>
-                <p>
-                  Mastering the Art of Digital Marketing: Proven Tactics for
-                  Online Success
-                </p>
-              </Card.Text>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <div className=" linkButton1 ">
-                  <Button type="btn" variant="Secondary">
-                    <span className="mx-2 spanButton">
-                      Continue Reading
-                      <FaArrowRight className="mx-2" />
-                    </span>
-                  </Button>
-                </div>
-              </Link>
-            </Card>
-          </Col>
-        </Row>
-        <Row className="mt-5">
-          <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="/./men.png" className="img-fluid " />
-
-              <Card.Text>
-                <p>
-                  Mastering the Art of Digital Marketing: Proven Tactics for
-                  Online Success
-                </p>
-              </Card.Text>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <div className=" linkButton1 ">
-                  <Button type="btn" variant="Secondary">
-                    <span className="mx-2 spanButton">
-                      Continue Reading
-                      <FaArrowRight className="mx-2" />
-                    </span>
-                  </Button>
-                </div>
-              </Link>
-            </Card>
-          </Col>
-          <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="/./cadn.png" className="img-fluid " />
-
-              <Card.Text>
-                <p>
-                  Mastering the Art of Digital Marketing: Proven Tactics for
-                  Online Success
-                </p>
-              </Card.Text>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <div className=" linkButton1 ">
-                  <Button type="btn" variant="Secondary">
-                    <span className="mx-2 spanButton">
-                      Continue Reading
-                      <FaArrowRight className="mx-2" />
-                    </span>
-                  </Button>
-                </div>
-              </Link>
-            </Card>
-          </Col>
-          <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="/./ddd.png" className="img-fluid " />
-
-              <Card.Text>
-                <p>
-                  Mastering the Art of Digital Marketing: Proven Tactics for
-                  Online Success
-                </p>
-              </Card.Text>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <div className=" linkButton1 ">
-                  <Button type="btn" variant="Secondary">
-                    <span className="mx-2 spanButton">
-                      Continue Reading
-                      <FaArrowRight className="mx-2" />
-                    </span>
-                  </Button>
-                </div>
-              </Link>
-            </Card>
-          </Col>
-        </Row>
-        <Row className="mt-5">
-          <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="/./men.png" className="img-fluid " />
-
-              <Card.Text>
-                <p>
-                  Mastering the Art of Digital Marketing: Proven Tactics for
-                  Online Success
-                </p>
-              </Card.Text>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <div className=" linkButton1 ">
-                  <Button type="btn" variant="Secondary">
-                    <span className="mx-2 spanButton">
-                      Continue Reading
-                      <FaArrowRight className="mx-2" />
-                    </span>
-                  </Button>
-                </div>
-              </Link>
-            </Card>
-          </Col>
-          <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="/./bag1.png" className="img-fluid " />
-
-              <Card.Text>
-                <p>
-                  Mastering the Art of Digital Marketing: Proven Tactics for
-                  Online Success
-                </p>
-              </Card.Text>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <div className=" linkButton1 ">
-                  <Button type="btn" variant="Secondary">
-                    <span className="mx-2 spanButton">
-                      Continue Reading
-                      <FaArrowRight className="mx-2" />
-                    </span>
-                  </Button>
-                </div>
-              </Link>
-            </Card>
-          </Col>
-          <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="/./cadh.png" className="img-fluid " />
-
-              <Card.Text>
-                <p>
-                  Mastering the Art of Digital Marketing: Proven Tactics for
-                  Online Success
-                </p>
-              </Card.Text>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <div className=" linkButton1 ">
-                  <Button type="btn" variant="Secondary">
-                    <span className="mx-2 spanButton">
-                      Continue Reading
-                      <FaArrowRight className="mx-2" />
-                    </span>
-                  </Button>
-                </div>
-              </Link>
-            </Card>
-          </Col>
-        </Row>
-        <Row className="mt-5">
-          <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="/./men.png" className="img-fluid " />
-
-              <Card.Text>
-                <p>
-                  Mastering the Art of Digital Marketing: Proven Tactics for
-                  Online Success
-                </p>
-              </Card.Text>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <div className=" linkButton1 ">
-                  <Button type="btn" variant="Secondary">
-                    <span className="mx-2 spanButton">
-                      Continue Reading
-                      <FaArrowRight className="mx-2" />
-                    </span>
-                  </Button>
-                </div>
-              </Link>
-            </Card>
-          </Col>
-          <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="/./cadn.png" className="img-fluid " />
-
-              <Card.Text>
-                <p>
-                  Mastering the Art of Digital Marketing: Proven Tactics for
-                  Online Success
-                </p>
-              </Card.Text>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <div className=" linkButton1 ">
-                  <Button type="btn" variant="Secondary">
-                    <span className="mx-2 spanButton">
-                      Continue Reading
-                      <FaArrowRight className="mx-2" />
-                    </span>
-                  </Button>
-                </div>
-              </Link>
-            </Card>
-          </Col>
-          <Col sm={4}>
-            <Card
-              className="border border-0"
-              style={{ background: "transparent" }}
-            >
-              <Card.Img src="/./ddd.png" className="img-fluid " />
-
-              <Card.Text>
-                <p>
-                  Mastering the Art of Digital Marketing: Proven Tactics for
-                  Online Success
-                </p>
-              </Card.Text>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <div className=" linkButton1 ">
-                  <Button type="btn" variant="Secondary">
-                    <span className="mx-2 spanButton">
-                      Continue Reading
-                      <FaArrowRight className="mx-2" />
-                    </span>
-                  </Button>
-                </div>
-              </Link>
-            </Card>
-          </Col>
-        </Row>
+      <Container className="Blog-Tab">
+        <Tabs
+          defaultActiveKey="profile"
+          id="uncontrolled-tab-example"
+          className="mb-3"
+        >
+          <Tab eventKey="All" title="All">
+            All
+          </Tab>
+          <Tab eventKey="Media" title="Media">
+            No Media
+          </Tab>
+          <Tab eventKey="Content" title="Content Writing">
+            Content Writing
+          </Tab>
+          <Tab eventKey="Digital Marketing" title="Digital Marketing">
+            Digital Marketing
+          </Tab>
+          <Tab eventKey="Loremph Ipsu" title="Loremph Ipsun">
+            Loremph Ipsun
+          </Tab>
+          <Tab eventKey="Loremph Isu" title="Loremph Isu">
+            Loremph Isu
+          </Tab>
+        </Tabs>
       </Container>
+      <Container className="">
+        <Row className="mt-5 ">
+          <Col sm={4}>
+            <Card
+              className="border border-0"
+              style={{ background: "transparent" }}
+            >
+              <Card.Img src="/./book1.png" className="img-fluid " />
+
+              <Card.Text>
+                <p>
+                  Mastering the Art of Digital Marketing: Proven Tactics for
+                  Online Success
+                </p>
+              </Card.Text>
+              <Link to="/BlogDetail" style={{ textDecoration: "none" }}>
+                <div className=" linkButton1 ">
+                  <Button type="btn" variant="Secondary">
+                    <span className="mx-2 spanButton">
+                      Continue Reading
+                      <FaArrowRight className="mx-2" />
+                    </span>
+                  </Button>
+                </div>
+              </Link>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card
+              className="border border-0"
+              style={{ background: "transparent" }}
+            >
+              <Card.Img src="/./trend.png" className="img-fluid " />
+
+              <Card.Text>
+                <p>
+                  Mastering the Art of Digital Marketing: Proven Tactics for
+                  Online Success
+                </p>
+              </Card.Text>
+              <Link to="/BlogDetail" style={{ textDecoration: "none" }}>
+                <div className=" linkButton1 ">
+                  <Button type="trend" variant="Secondary">
+                    <span className="mx-2 spanButton">
+                      Continue Reading
+                      <FaArrowRight className="mx-2" />
+                    </span>
+                  </Button>
+                </div>
+              </Link>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card
+              className="border border-0"
+              style={{ background: "transparent" }}
+            >
+              <Card.Img src="/./trend.png" className="img-fluid " />
+
+              <Card.Text>
+                <p>
+                  Mastering the Art of Digital Marketing: Proven Tactics for
+                  Online Success
+                </p>
+              </Card.Text>
+              <Link to="/BlogDetail" style={{ textDecoration: "none" }}>
+                <div className=" linkButton1 ">
+                  <Button type="btn" variant="Secondary">
+                    <span className="mx-2 spanButton">
+                      Continue Reading
+                      <FaArrowRight className="mx-2" />
+                    </span>
+                  </Button>
+                </div>
+              </Link>
+            </Card>
+          </Col>
+        </Row>
+        <Row className="mt-5">
+          <Col sm={4}>
+            <Card
+              className="border border-0"
+              style={{ background: "transparent" }}
+            >
+              <Card.Img src="/./book1.png" className="img-fluid " />
+
+              <Card.Text>
+                <p>
+                  Mastering the Art of Digital Marketing: Proven Tactics for
+                  Online Success
+                </p>
+              </Card.Text>
+              <Link to="/BlogDetail" style={{ textDecoration: "none" }}>
+                <div className=" linkButton1 ">
+                  <Button type="btn" variant="Secondary">
+                    <span className="mx-2 spanButton">
+                      Continue Reading
+                      <FaArrowRight className="mx-2" />
+                    </span>
+                  </Button>
+                </div>
+              </Link>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card
+              className="border border-0"
+              style={{ background: "transparent" }}
+            >
+              <Card.Img src="/./trend.png" className="img-fluid " />
+
+              <Card.Text>
+                <p>
+                  Mastering the Art of Digital Marketing: Proven Tactics for
+                  Online Success
+                </p>
+              </Card.Text>
+              <Link to="/BlogDetail" style={{ textDecoration: "none" }}>
+                <div className=" linkButton1 ">
+                  <Button type="btn" variant="Secondary">
+                    <span className="mx-2 spanButton">
+                      Continue Reading
+                      <FaArrowRight className="mx-2" />
+                    </span>
+                  </Button>
+                </div>
+              </Link>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card
+              className="border border-0"
+              style={{ background: "transparent" }}
+            >
+              <Card.Img src="/./trend.png" className="img-fluid " />
+
+              <Card.Text>
+                <p>
+                  Mastering the Art of Digital Marketing: Proven Tactics for
+                  Online Success
+                </p>
+              </Card.Text>
+              <Link to="/BlogDetail" style={{ textDecoration: "none" }}>
+                <div className=" linkButton1 ">
+                  <Button type="btn" variant="Secondary">
+                    <span className="mx-2 spanButton">
+                      Continue Reading
+                      <FaArrowRight className="mx-2" />
+                    </span>
+                  </Button>
+                </div>
+              </Link>
+            </Card>
+          </Col>
+        </Row>
+        <Row className="mt-5">
+          <Col sm={4}>
+            <Card
+              className="border border-0"
+              style={{ background: "transparent" }}
+            >
+              <Card.Img src="/./book1.png" className="img-fluid " />
+
+              <Card.Text>
+                <p>
+                  Mastering the Art of Digital Marketing: Proven Tactics for
+                  Online Success
+                </p>
+              </Card.Text>
+              <Link to="/BlogDetail" style={{ textDecoration: "none" }}>
+                <div className=" linkButton1 ">
+                  <Button type="btn" variant="Secondary">
+                    <span className="mx-2 spanButton">
+                      Continue Reading
+                      <FaArrowRight className="mx-2" />
+                    </span>
+                  </Button>
+                </div>
+              </Link>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card
+              className="border border-0"
+              style={{ background: "transparent" }}
+            >
+              <Card.Img src="/./trend.png" className="img-fluid " />
+
+              <Card.Text>
+                <p>
+                  Mastering the Art of Digital Marketing: Proven Tactics for
+                  Online Success
+                </p>
+              </Card.Text>
+              <Link to="/BlogDetail" style={{ textDecoration: "none" }}>
+                <div className=" linkButton1 ">
+                  <Button type="btn" variant="Secondary">
+                    <span className="mx-2 spanButton">
+                      Continue Reading
+                      <FaArrowRight className="mx-2" />
+                    </span>
+                  </Button>
+                </div>
+              </Link>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card
+              className="border border-0"
+              style={{ background: "transparent" }}
+            >
+              <Card.Img src="/./trend.png" className="img-fluid " />
+
+              <Card.Text>
+                <p>
+                  Mastering the Art of Digital Marketing: Proven Tactics for
+                  Online Success
+                </p>
+              </Card.Text>
+              <Link to="/BlogDetail" style={{ textDecoration: "none" }}>
+                <div className=" linkButton1 ">
+                  <Button type="btn" variant="Secondary">
+                    <span className="mx-2 spanButton">
+                      Continue Reading
+                      <FaArrowRight className="mx-2" />
+                    </span>
+                  </Button>
+                </div>
+              </Link>
+            </Card>
+          </Col>
+        </Row>
+        <Row className="mt-5">
+          <Col sm={4}>
+            <Card
+              className="border border-0"
+              style={{ background: "transparent" }}
+            >
+              <Card.Img src="/./book1.png" className="img-fluid " />
+
+              <Card.Text>
+                <p>
+                  Mastering the Art of Digital Marketing: Proven Tactics for
+                  Online Success
+                </p>
+              </Card.Text>
+              <Link to="/BlogDetail" style={{ textDecoration: "none" }}>
+                <div className=" linkButton1 ">
+                  <Button type="btn" variant="Secondary">
+                    <span className="mx-2 spanButton">
+                      Continue Reading
+                      <FaArrowRight className="mx-2" />
+                    </span>
+                  </Button>
+                </div>
+              </Link>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card
+              className="border border-0"
+              style={{ background: "transparent" }}
+            >
+              <Card.Img src="/./trend.png" className="img-fluid " />
+
+              <Card.Text>
+                <p>
+                  Mastering the Art of Digital Marketing: Proven Tactics for
+                  Online Success
+                </p>
+              </Card.Text>
+              <Link to="/BlogDetail" style={{ textDecoration: "none" }}>
+                <div className=" linkButton1 ">
+                  <Button type="btn" variant="Secondary">
+                    <span className="mx-2 spanButton">
+                      Continue Reading
+                      <FaArrowRight className="mx-2" />
+                    </span>
+                  </Button>
+                </div>
+              </Link>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card
+              className="border border-0"
+              style={{ background: "transparent" }}
+            >
+              <Card.Img src="/./trend.png" className="img-fluid " />
+
+              <Card.Text>
+                <p>
+                  Mastering the Art of Digital Marketing: Proven Tactics for
+                  Online Success
+                </p>
+              </Card.Text>
+              <Link to="/BlogDetail" style={{ textDecoration: "none" }}>
+                <div className=" linkButton1 ">
+                  <Button type="btn" variant="Secondary">
+                    <span className="mx-2 spanButton">
+                      Continue Reading
+                      <FaArrowRight className="mx-2" />
+                    </span>
+                  </Button>
+                </div>
+              </Link>
+            </Card>
+          </Col>
+        </Row>
+
+        <Link
+          to="/BlogDetail"
+          style={{ textDecoration: "none", marginTop: "100px" }}
+        >
+          <div
+            className=" LinkButton mx-auto "
+            style={{ marginTop: "150px", marginBottom: "100px" }}
+          >
+            <Button
+              type="btn"
+              variant="Secondary"
+              className="d-flex justify-content-center"
+            >
+              <span className="mx-2 spanButton ">
+                <FaArrowDownLong />
+                Load More
+              </span>
+            </Button>
+          </div>
+        </Link>
+      </Container>
+      <Join />
+      <Footer />
     </>
   );
 };

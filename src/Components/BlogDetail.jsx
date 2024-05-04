@@ -65,7 +65,7 @@ const BlogDetail = () => {
               </p>
             </Col>
             <Col md={6}>
-              <Image src="/./group.png" className="img-fluid" />
+              <Image src="/./trend.png" className="img-fluid" />
             </Col>
           </Row>
           <hr />
@@ -113,7 +113,7 @@ const BlogDetail = () => {
 
             <Row>
               <Col md={6}>
-                <Image src="/./group.png" className="img-fluid" />
+                <Image src="/./trend2.png" className="img-fluid" />
               </Col>
               <Col md={6}>
                 <p>

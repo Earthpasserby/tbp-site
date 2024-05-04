@@ -33,9 +33,9 @@ const HomePage = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto mx-5">
-              <Nav.Link href="/src/Components/AboutPage.jsx" className="Link1">
-                About Us
-              </Nav.Link>
+              <Link to="/AboutPage" style={{ textDecoration: "none" }}>
+                <Nav className="Link1">About Us</Nav>
+              </Link>
               <Nav.Link href="#pricing" className="Link2">
                 Our Services
               </Nav.Link>
