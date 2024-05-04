@@ -13,19 +13,23 @@
   color: #000000;
 }
 
-.Nav link {
-  color: white;
+.Link {
+  outline: none;
+  text-decoration: none;
 }
-.Link1,
-.Link2,
-.Link3,
-.Link4 {
+.Link:active {
+  color: #ff3c00;
+}
+.nav-link:hover .Link {
+  color: #ff0000;
+}
+.nav-link .Link {
+  color: #000000;
   font-family: "Montserrat";
   font-size: 15px;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 18.29px;
   text-align: left;
-  color: #ffffff;
 }
 
 .content {
@@ -1160,56 +1164,56 @@
     border-radius: 4px 0px 0px 0px;
     opacity: 0px;
   }
-/*Contact page*/
-.Contact-p {
-  width: 340px !important;
-  height: 116px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: "Montserrat";
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 34px;
-  text-align: left;
-  margin-top: 20px;
-  color: #ffffff;
-}
-.Contact-Address {
-  margin-top: 100px !important;
-}
-.Contact-B{
-  min-height: 170vh !important;
-}
+  /*Contact page*/
+  .Contact-p {
+    width: 340px !important;
+    height: 116px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 20px;
+    color: #ffffff;
+  }
+  .Contact-Address {
+    margin-top: 100px !important;
+  }
+  .Contact-B {
+    min-height: 170vh !important;
+  }
 
-.Contact {
-  padding-top: 100px;
-}
-.Contact-form {
-  background:#fff !important;
-  width: 357px !important;
-  height: 400px !important;
-  top: 103px;
-  left: 809px;
-  gap: 0px;
-  border-radius: 12px;
-  opacity: 0px;
-  margin-top: 100px !important;
-}
+  .Contact {
+    padding-top: 100px;
+  }
+  .Contact-form {
+    background: #fff !important;
+    width: 357px !important;
+    height: 400px !important;
+    top: 103px;
+    left: 809px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    margin-top: 100px !important;
+  }
 
-.contact-form {
-  padding-top: 10px !important;
-  width: 310px !important;
-  height: 70px !important;
-  top: 55px;
-  left: 38px;
-  gap: 12px;
-  opacity: 0px;
-  margin-left: 0 !important;
-  margin-right: 0  !important;
-}
-.Contact-Button{
-  width: 300px !important;
-}
+  .contact-form {
+    padding-top: 10px !important;
+    width: 310px !important;
+    height: 70px !important;
+    top: 55px;
+    left: 38px;
+    gap: 12px;
+    opacity: 0px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .Contact-Button {
+    width: 300px !important;
+  }
 }
 
 /*Featured page*/

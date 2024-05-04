@@ -28,25 +28,62 @@ const HomePage = () => {
       >
         <Navbar collapseOnSelect expand="lg" className="mx-5">
           <Navbar.Brand href="#home">
-            <Image src="/./The Brand Plug Logo.png" className="img-fluid" />
+            <Link to="/" style={{ textDecoration: "none" }} className="Link">
+              <Image src="/./The Brand Plug Logo.png" className="img-fluid" />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto mx-5">
-              <Link to="/AboutPage" style={{ textDecoration: "none" }}>
-                <Nav className="Link1">About Us</Nav>
-              </Link>
-              <Nav.Link href="#pricing" className="Link2">
-                Our Services
+              <Nav.Link href="AboutPage">
+                <Link
+                  to="/AboutPage"
+                  style={{ textDecoration: "none", color: "#FFFFFF" }}
+                  className="Link"
+                >
+                  About Us
+                </Link>
               </Nav.Link>
-              <Nav.Link href="#pricing" className="Link3">
-                Our Projects
+              <Nav.Link href="Services">
+                <Link
+                  to="/Servic"
+                  style={{ textDecoration: "none", color: "#FFFFFF" }}
+                  className="Link"
+                >
+                  Our Services
+                </Link>
               </Nav.Link>
-              <Nav.Link href="#pricing" className="Link4">
-                Blogs
+
+              <Nav.Link href="Project">
+                <Link
+                  to="/ProjectMain"
+                  style={{ textDecoration: "none", color: "#FFFFFF" }}
+                  className="Link"
+                >
+                  Our Projects
+                </Link>
+              </Nav.Link>
+
+              <Nav.Link href="Blog">
+                <Link
+                  to="/Blog"
+                  style={{ textDecoration: "none", color: "#FFFFFF" }}
+                  className="Link"
+                >
+                  Blogs
+                </Link>
+              </Nav.Link>
+              <Nav.Link href="Blog">
+                <Link
+                  to="/Contact"
+                  style={{ textDecoration: "none", color: "#FFFFFF" }}
+                  className="Link"
+                >
+                  Contact
+                </Link>
               </Nav.Link>
             </Nav>
-            <Nav className="">
+            <Nav className=" mx-4">
               <Image src="/./Facebook.png" className="img-fluid" />
               <Image src="/./x.png" className="img-fluid" />
               <Image src="/./ig.png" className="img-fluid" />
