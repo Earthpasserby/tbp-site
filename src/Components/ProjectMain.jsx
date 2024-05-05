@@ -12,6 +12,11 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import Pictures from "./Pictures";
+import Join from "./Join";
+import Footer from "./Footer";
+import { FaArrowDownLong } from "react-icons/fa6";
+
 // import Footer from "./Footer";
 
 const ProjectMain = () => {
@@ -309,38 +314,30 @@ const ProjectMain = () => {
             </div>
           </Row>
         </Container>
-        <Row>
-          <Col sm={2} className="">
-            <Image src="/./boc1.png" className="img-fluid " />
-          </Col>{" "}
-          <Col>
-            <Image src="/./boc2.png" className="img-fluid " />
-          </Col>{" "}
-          <Col sm={2}>
-            <Image src="/./boc3.png" className="img-fluid " />
-          </Col>
-          <Col sm={2}>
-            <Image src="/./boc5.png" className="img-fluid " />
-          </Col>
-          <Col sm={2}>
-            <Image src="/./boc3.png" className="img-fluid " />
-          </Col>
-          <Col sm={2}>
-            <Image src="/./boc3.png" className="img-fluid " />
-          </Col>
-        </Row>
-        <Row>
-          <Col md={4}>
-            <Image src="/./shirt.png" className="img-fluid " />
-          </Col>
-          <Col md={4} className="px-5">
-            <Image src="/./bbig.png" className="img-fluid " />
-          </Col>
-          <Col md={4} className="px-5">
-            <Image src="/./pen.png" className="img-fluid " />
-          </Col>
-        </Row>
+        <Pictures />
+        <Link
+          to="/BlogDetail"
+          style={{ textDecoration: "none", marginTop: "100px" }}
+        >
+          <div
+            className=" LinkButton mx-auto "
+            style={{ marginTop: "150px", marginBottom: "100px" }}
+          >
+            <Button
+              type="btn"
+              variant="Secondary"
+              className="d-flex justify-content-center"
+            >
+              <span className="mx-2 spanButton ">
+                <FaArrowDownLong />
+                Load More
+              </span>
+            </Button>
+          </div>
+        </Link>
+        <Join />
       </Container>
+      <Footer />
     </>
   );
 };

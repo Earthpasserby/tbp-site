@@ -1,4 +1,5 @@
 import React from "react";
+
 import Pin from "./Pin";
 
 const styles = {
@@ -32,34 +33,46 @@ function Pictures() {
 
       <div className="Kontainer">
         <div className="box">
-          <img src="/./lap.png" alt="nice pictu" />
+          <img src="/./f1.png" alt="nice pictu" />
         </div>
         <div className="box">
-          <img src="/./boc1.png" alt="nice pictu" />
+          <img src="/./f2.png" alt="nice pictu" />
         </div>
         <div className="box">
-          <img src="/./cadd.png" alt="nice pictu" />
+          <img src="/./f3.png" alt="nice pictu" />
         </div>
         <div className="box">
-          <img src="/./cadd.png" alt="nice pictu" />
+          <img src="/./f4.png" alt="nice pictu" />
         </div>
         <div className="box">
-          <img src="/./bag1.png" alt="nice pictu" />
+          <img src="/./f1.png" alt="nice pictu" />
         </div>
         <div className="box">
-          <img src="/./boc5.png" alt="nice pictu" />
+          <img src="/./f6.png" alt="nice pictu" />
         </div>
         <div className="box">
-          <img src="/./cadg.png" alt="nice pictu" />
+          <img src="/./f7.png" alt="nice pictu" />
         </div>
         <div className="box">
-          <img src="/./cadn.png" alt="nice pictu" />
+          <img src="/./f6.png" alt="nice pictu" />
         </div>
         <div className="box">
-          <img src="/./booc.png" alt="nice pictu" />
+          <img src="/./f7.png" alt="nice pictu" />
         </div>
         <div className="box">
-          <img src="/./cadh.png" alt="nice pictu" />
+          <img src="/./f10.png" alt="nice pictu" />
+        </div>
+        <div className="box">
+          <img src="/./f10.png" alt="nice pictu" />
+        </div>
+        <div className="box">
+          <img src="/./f1.png" alt="nice pictu" />
+        </div>
+        <div className="box">
+          <img src="/./f6.png" alt="nice pictu" />
+        </div>
+        <div className="box">
+          <img src="/./f10.png" alt="nice pictu" />
         </div>
       </div>
     </>

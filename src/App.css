@@ -2637,12 +2637,45 @@
   margin-left: auto;
   margin-right: auto;
 }
-.pic-cont{
+.pic-cont {
   width: 1200px;
   margin: 20px auto;
   columns: 4;
   column-gap: 40px;
 }
-.grid-wrapper{
 
+/*Picture Page*/
+.Kontainer {
+  width: 80vw;
+  margin: 20px auto;
+  columns: 4;
+  column-gap: 20px;
+}
+.Kontainer .box {
+  width: 100%;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+
+.Kontainer .box img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+@media (max-width: 1200px) {
+  .Kontainer {
+    width: calc(100% - 40px);
+    columns: 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .Kontainer {
+    columns: 2;
+  }
+}
+@media (max-width: 480px) {
+  .Kontainer {
+    columns: 2;
+  }
 }
