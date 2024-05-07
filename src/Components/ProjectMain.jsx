@@ -142,11 +142,11 @@ const ProjectMain = () => {
                 style={{ background: "transparent" }}
               >
                 <Card.Img src="/./men.png" className="img-fluid " />
-                <Card.Title className="card-title">
+                <Card.Title className="card-title" style={{ color: "white" }}>
                   Lorem ipsum dolor sit
                 </Card.Title>
                 <Card.Text>
-                  <p>
+                  <p style={{ color: "white" }}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                     tempor ligula eu felis porta, nec volutpat ligula bibendum
                   </p>
@@ -169,11 +169,11 @@ const ProjectMain = () => {
                 style={{ background: "transparent" }}
               >
                 <Card.Img src="/./bag1.png" className="img-fluid " />
-                <Card.Title className="card-title">
+                <Card.Title className="card-title" style={{ color: "white" }}>
                   Lorem ipsum dolor sit
                 </Card.Title>
                 <Card.Text>
-                  <p>
+                  <p style={{ color: "white" }}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                     tempor ligula eu felis porta, nec volutpat ligula bibendum
                   </p>
@@ -196,11 +196,11 @@ const ProjectMain = () => {
                 style={{ background: "transparent" }}
               >
                 <Card.Img src="/./cadh.png" className="img-fluid " />
-                <Card.Title className="card-title">
+                <Card.Title className="card-title" style={{ color: "white" }}>
                   Lorem ipsum dolor sit
                 </Card.Title>
                 <Card.Text>
-                  <p>
+                  <p style={{ color: "white" }}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                     tempor ligula eu felis porta, nec volutpat ligula bibendum
                   </p>
@@ -225,11 +225,11 @@ const ProjectMain = () => {
                 style={{ background: "transparent" }}
               >
                 <Card.Img src="/./men.png" className="img-fluid " />
-                <Card.Title className="card-title">
+                <Card.Title className="card-title" style={{ color: "white" }}>
                   Lorem ipsum dolor sit
                 </Card.Title>
                 <Card.Text>
-                  <p>
+                  <p style={{ color: "white" }}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                     tempor ligula eu felis porta, nec volutpat ligula bibendum
                   </p>
@@ -252,11 +252,11 @@ const ProjectMain = () => {
                 style={{ background: "transparent" }}
               >
                 <Card.Img src="/./cadn.png" className="img-fluid " />
-                <Card.Title className="card-title">
+                <Card.Title className="card-title" style={{ color: "white" }}>
                   Lorem ipsum dolor sit
                 </Card.Title>
                 <Card.Text>
-                  <p>
+                  <p style={{ color: "white" }}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                     tempor ligula eu felis porta, nec volutpat ligula bibendum
                   </p>
@@ -279,11 +279,11 @@ const ProjectMain = () => {
                 style={{ background: "transparent" }}
               >
                 <Card.Img src="/./ddd.png" className="img-fluid " />
-                <Card.Title className="card-title">
+                <Card.Title className="card-title" style={{ color: "white" }}>
                   Lorem ipsum dolor sit
                 </Card.Title>
                 <Card.Text>
-                  <p>
+                  <p style={{ color: "white" }}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                     tempor ligula eu felis porta, nec volutpat ligula bibendum
                   </p>
