@@ -2,8 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import {
-  BrowserRouter as Router,
-  Routes,
+  BrowserRouter as Routes,
   Route,
   BrowserRouter,
 } from "react-router-dom";
