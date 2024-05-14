@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Row,
-  Image,
-  Col,
-  Button,
-  Carousel,
-  Caro,
-} from "react-bootstrap";
+import { Container, Row, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";

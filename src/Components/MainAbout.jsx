@@ -7,7 +7,6 @@ import {
   Navbar,
   Nav,
   Col,
-  Card,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaArrowLeftLong } from "react-icons/fa6";

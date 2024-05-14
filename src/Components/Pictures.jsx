@@ -1,23 +1,23 @@
 import React from "react";
 
-import Pin from "./Pin";
 
-const styles = {
-  pin_container: {
-    margin: 0,
-    padding: 0,
-    width: "80vw",
-    backgroundColor: "black",
-    postion: "absolute",
-    left: "50%",
-    transform: "translateY(-4%)",
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fill, 290px)",
-    gridAutoRows: "10px",
 
-    justifyContent: "center",
-  },
-};
+// const styles = {
+//   pin_container: {
+//     margin: 0,
+//     padding: 0,
+//     width: "80vw",
+//     backgroundColor: "black",
+//     postion: "absolute",
+//     left: "50%",
+//     transform: "translateY(-4%)",
+//     display: "grid",
+//     gridTemplateColumns: "repeat(auto-fill, 290px)",
+//     gridAutoRows: "10px",
+
+//     justifyContent: "center",
+//   },
+// };
 
 function Pictures() {
   return (

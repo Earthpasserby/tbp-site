@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Button,
-  Container,
-  Row,
-  Image,
-  Navbar,
-  Nav,
-  Col,
-} from "react-bootstrap";
+import { Container, Row, Image, Navbar, Nav, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import Featured from "./Featured";
