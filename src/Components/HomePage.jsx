@@ -98,21 +98,21 @@ const HomePage = () => {
                 We Help Brands and Businesses Find their Voice and Compete in
                 their various Niche
               </p>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <div className=" LinkButton mx-auto">
-                  <Button
-                    type="btn"
-                    variant="Secondary"
-                    className="d-flex justify-content-center"
-                  >
-                    <span className="mx-2 spanButton ">
-                      See our works
-                      <FaArrowRight />
-                    </span>
-                  </Button>
-                </div>
-              </Link>
             </div>
+            <Link to="/" style={{ textDecoration: "none" }}>
+              <div className=" LinkButton mx-auto">
+                <Button
+                  type="btn"
+                  variant="Secondary"
+                  className="d-flex justify-content-center"
+                >
+                  <span className="mx-2 spanButton ">
+                    See our works
+                    <FaArrowRight />
+                  </span>
+                </Button>
+              </div>
+            </Link>
           </div>
         </Row>
       </Container>
