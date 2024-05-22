@@ -8,7 +8,7 @@ const Knowledge = () => {
   return (
     <Container fluid className="mt-4 home">
       <Row className="mx-auto">
-        <div className="knownd">
+        <div className="known">
           <h4>Always eager for new knowledge?</h4>
           <p>
             Explore our latest articles on branding, growth strategies, and
