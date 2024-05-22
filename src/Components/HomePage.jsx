@@ -1,5 +1,13 @@
 import React from "react";
-import { Button, Container, Row, Image, Navbar, Nav } from "react-bootstrap";
+import {
+  Button,
+  Container,
+  Row,
+  Image,
+  Navbar,
+  Nav,
+  Col,
+} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
@@ -90,31 +98,33 @@ const HomePage = () => {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <Row>
-          <div className="content">
-            <div className="centered-text">
-              <h4>WELCOME TO THE BRAND PLUG!</h4>
-              <p className="mb-4">
-                We Help Brands and Businesses Find their Voice and Compete in
-                their various Niche
-              </p>
-            </div>
-            <Link to="/" style={{ textDecoration: "none" }}>
-              <div className=" LinkButton mx-auto">
-                <Button
-                  type="btn"
-                  variant="Secondary"
-                  className="d-flex justify-content-center"
-                >
-                  <span className="mx-2 spanButton ">
-                    See our works
-                    <FaArrowRight />
-                  </span>
-                </Button>
+        <Col>
+          <Row>
+            <div className="content">
+              <div className="centered-text">
+                <h4>WELCOME TO THE BRAND PLUG!</h4>
+                <p className="mb-4">
+                  We Help Brands and Businesses Find their Voice and Compete in
+                  their various Niche
+                </p>
+                <Link to="/" style={{ textDecoration: "none" }}>
+                  <div className=" LinkButton mx-auto">
+                    <Button
+                      type="btn"
+                      variant="Secondary"
+                      className="d-flex justify-content-center"
+                    >
+                      <span className="mx-2 spanButton ">
+                        See our works
+                        <FaArrowRight />
+                      </span>
+                    </Button>
+                  </div>
+                </Link>
               </div>
-            </Link>
-          </div>
-        </Row>
+            </div>
+          </Row>
+        </Col>
       </Container>
       <Homepage2 />
       <Services />
