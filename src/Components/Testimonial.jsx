@@ -9,7 +9,7 @@ const Testimonial = () => {
     <>
       <Container
         fluid
-        style={{ backgroundColor: "#161616", minHeight: "50vh" }}
+        style={{ backgroundColor: "#161616", minHeight: "70vh" }}
         className="home"
       >
         <Row className="mx-auto Service">
@@ -80,7 +80,7 @@ const Testimonial = () => {
         }}
       >
         <Row>
-          <div className="Service">
+          <div className="Service Brand-Talk">
             <h4 className="p5">
               Ready to make some noise in the digital realm?
               <br />
