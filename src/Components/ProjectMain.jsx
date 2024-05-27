@@ -92,7 +92,7 @@ const ProjectMain = () => {
                 <Image src="/./x.png" className="img-fluid mx-2" />
               </Link>
               <Link to="/Contact" className="Link">
-                <Image src="/./ig.png" className="img-fluid mx-2" />
+                <Image src="/./ig.png" className="img-fluid" />
               </Link>
             </Nav>
           </Navbar.Collapse>

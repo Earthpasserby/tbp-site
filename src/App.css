@@ -2084,6 +2084,7 @@
 .projectMain {
   background: #161616;
   min-width: 100vh;
+  height: 1400px;
 }
 .card {
   width: 348px;
