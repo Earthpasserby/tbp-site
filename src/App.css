@@ -1530,7 +1530,9 @@
   color: #000000;
   margin-top: 10px;
 }
-
+.Mission {
+  margin-top: 150px;
+}
 .About-us {
   width: 996px;
   height: 193px;

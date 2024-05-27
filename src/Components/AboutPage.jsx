@@ -129,7 +129,11 @@ const AboutPage = () => {
           </Row>
         </Container>
       </Container>
-      <Container fluid style={{ backgroundColor: "#161616" }}>
+      <Container
+        fluid
+        style={{ backgroundColor: "#161616" }}
+        className="Mission"
+      >
         <Container>
           <Row className="mission">
             <Col xs={12} md={6}>
