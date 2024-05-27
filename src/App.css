@@ -1873,7 +1873,6 @@
   width: 630px;
   height: 45px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 400;
@@ -1915,13 +1914,11 @@
   width: 588px;
   height: 220px;
   gap: 40px;
-  opacity: 0px;
 }
 .pag1 h4 {
   width: 588px;
   height: 25px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 35px;
   font-weight: 700;
@@ -1934,7 +1931,6 @@
   width: 509px;
   height: 25px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 35px;
   font-weight: 700;
@@ -1947,8 +1943,6 @@
   width: 588px;
   height: 25px;
   gap: 0px;
-  opacity: 0px;
-
   font-family: "Montserrat";
   font-size: 35px;
   font-weight: 700;
@@ -1961,8 +1955,6 @@
   width: 588px;
   height: 25px;
   gap: 0px;
-  opacity: 0px;
-
   font-family: "Montserrat";
   font-size: 35px;
   font-weight: 700;
@@ -1975,7 +1967,6 @@
   width: 333px;
   height: 25px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 35px;
   font-weight: 700;
@@ -1998,7 +1989,6 @@
   color: #ffffff;
   width: 630px;
   gap: 0px;
-  opacity: 0px;
 }
 .pag1 li::marker,
 .pag2 li::marker,
@@ -2015,7 +2005,6 @@
   padding: 5px 5px 10px 10px;
   gap: 10px;
   border-radius: 50px;
-  opacity: 0px;
   text-align: center;
   border: 2px solid #ff3c00;
 }
@@ -2029,13 +2018,11 @@
   width: 206px;
   height: 11px;
   gap: 0px;
-  opacity: 0px;
 }
 .linkButton1 .spanButton {
   width: 84px;
   height: 11px;
   gap: 0px;
-  opacity: 0px;
   color: #ffb199;
   font-family: "Montserrat";
   font-size: 15px;
@@ -2047,7 +2034,6 @@
   width: 650px;
   height: 25px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 35px;
   font-weight: 700;
@@ -2060,7 +2046,6 @@
   width: 106px;
   height: 10px;
   gap: 0px;
-  opacity: 0px;
   color: #ff3c00;
   font-family: "Montserrat";
   font-size: 15px;
@@ -2075,13 +2060,11 @@
   top: 882px;
   left: 204px;
   gap: 40px;
-  opacity: 0px;
 }
 .ProjectMain p {
   width: 752px;
   height: 77px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 500;
@@ -2096,7 +2079,6 @@
 .card {
   width: 348px;
   gap: 20px;
-  opacity: 0px;
 }
 .pM {
   text-align: center;
@@ -2107,7 +2089,6 @@
   width: 106px;
   height: 10px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 15px;
   font-weight: 500;
@@ -2140,7 +2121,6 @@
   top: 360px;
   left: 664px;
   gap: 0px;
-  opacity: 0px;
 }
 
 /*MainABout Page*/
@@ -2150,7 +2130,6 @@
   top: 674px;
   left: 204px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 400;
@@ -2164,7 +2143,6 @@
   top: 595px;
   left: 204px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 700;
@@ -2182,7 +2160,6 @@
   top: 674px;
   left: 204px;
   gap: 0px;
-  opacity: 0px;
 }
 
 .MinAbout {
@@ -2192,7 +2169,6 @@
   top: 1734px;
   left: 204px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 400;
@@ -2215,7 +2191,6 @@
   width: 35px;
   height: 10px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
@@ -2234,7 +2209,6 @@
   left: 204px;
   gap: 0px;
   border-radius: 10px 0px 0px 0px;
-  opacity: 0px;
 }
 .minAb {
   margin-left: 87px;
@@ -2245,7 +2219,6 @@
   width: 110px;
   height: 19px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 16px;
   font-weight: 500;
@@ -2258,7 +2231,6 @@
   width: 702px;
   height: 74px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 20px;
   font-weight: 600;
@@ -2283,7 +2255,6 @@
   top: 173px;
   left: 120px;
   gap: 44px;
-  opacity: 0px;
 }
 .Blog-form {
   width: 431px;
@@ -2294,7 +2265,6 @@
   gap: 0px;
   border-radius: 50px 0px 0px 0px;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
 }
 
 .Blog-Tab {
@@ -2316,7 +2286,6 @@
   background: #ffff;
   width: 100%;
   border: 1px solid #8f8f8f;
-  opacity: 0px;
   height: 50px;
 }
 
@@ -2336,7 +2305,6 @@
   padding: 0px 43px 0px 44px;
   gap: 0px;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
 }
 
 /*BlogDetail Page*/
@@ -2344,7 +2312,6 @@
   width: 1104px;
   height: 326px;
   gap: 59px;
-  opacity: 0px;
   margin-top: 90px;
 }
 .BlogD1 span {
@@ -2359,7 +2326,6 @@
   width: 588px;
   height: 283px;
   gap: 30px;
-  opacity: 0px;
 }
 .BlogD1 h4 {
   font-family: "Montserrat";
@@ -2370,7 +2336,6 @@
   width: 550px;
   height: 52px;
   gap: 0px;
-  opacity: 0px;
   color: #000000;
 }
 .BlogD1 p {
@@ -2383,7 +2348,6 @@
   width: 588px;
   height: 141px;
   gap: 0px;
-  opacity: 0px;
   margin-top: 20px;
 }
 
@@ -2392,15 +2356,12 @@
   height: 326px;
   gap: 0px;
   border-radius: 8px 0px 0px 0px;
-  opacity: 0px;
   margin-bottom: 40px;
 }
 .Blog-D {
   margin-top: 100px;
   width: 1104px;
-
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 400;
@@ -2415,7 +2376,6 @@
   top: 1141px;
   left: 627px;
   gap: 0px;
-  opacity: 0px;
 }
 .Blog-D3 {
   width: 391px;
@@ -2424,7 +2384,6 @@
   left: 204px;
   gap: 0px;
   border-radius: 8px 0px 0px 0px;
-  opacity: 0px;
 }
 
 /*Contact Page*/
