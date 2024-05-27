@@ -11,7 +11,7 @@ const Experience = () => {
       style={{ backgroundColor: "#161616" }}
       className="mt-1 home"
     >
-      <Row className="Exp-header">
+      <Row className="Exp-header ">
         <Col md={8} className="mb-2 mt-5">
           <h4 className="mb-4" style={{ color: "#FFFFFF" }}>
             Join The Brand Plug

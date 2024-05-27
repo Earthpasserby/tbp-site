@@ -92,8 +92,8 @@ const HomePage = () => {
               </Nav.Link>
             </Nav>
             <Nav className=" mx-4">
-              <Image src="/./Facebook.png" className="img-fluid" />
-              <Image src="/./x.png" className="img-fluid" />
+              <Image src="/./Facebook.png" className="img-fluid mx-2" />
+              <Image src="/./x.png" className="img-fluid mx-2" />
               <Image src="/./ig.png" className="img-fluid" />
             </Nav>
           </Navbar.Collapse>

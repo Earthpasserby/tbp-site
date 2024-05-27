@@ -8,10 +8,10 @@ const Projects = () => {
   return (
     <Container
       fluid
-      style={{ backgroundColor: "#F6F6F6" }}
+      style={{ backgroundColor: "#F6F6F6", height: "700px" }}
       className="Project "
     >
-      <Row className="mx-auto mt-4">
+      <Row className="mx-auto mt-4 mb-5">
         <Col md={5} className="mb-2 mt-5">
           <pre>PROJECTS</pre>
           <h4 className="mb-4">OUR CASE STUDIES</h4>

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Knowledge = () => {
   return (
-    <Container fluid className="mt-4 home">
+    <Container fluid className="mt-5 home">
       <Row className="mx-auto">
         <div className="known">
           <h4>Always eager for new knowledge?</h4>
@@ -70,13 +70,13 @@ const Knowledge = () => {
         </Col>
 
         <Link to="/" style={{ textDecoration: "none" }}>
-          <div className=" LinkButton8 mx-auto mb-3">
+          <div className=" LinkButton8 mx-auto mb-3 mt-4">
             <Button
               type="btn"
               variant="Secondary"
               className="d-flex justify-content-center"
             >
-              <span className="mx-2 spanButton ">
+              <span className="mx-2 spanButton">
                 See more
                 <FaArrowRight className="mx-2" />
               </span>

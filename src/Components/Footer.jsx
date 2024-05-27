@@ -23,8 +23,8 @@ const Footer = () => {
                 pursuit of excellence.
               </p>
               <div className="mt-4 pic">
-                <Image src="/./Facebook.png" className="img-fluid" />
-                <Image src="/./x.png" className="img-fluid" />
+                <Image src="/./Facebook.png" className="img-fluid mx-2" />
+                <Image src="/./x.png" className="img-fluid mx-2" />
                 <Image src="/./ig.png" className="img-fluid" />
               </div>
             </Col>

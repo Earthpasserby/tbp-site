@@ -15,7 +15,7 @@ const Join = () => {
         minHeight: "70vh",
       }}
     >
-      <Row className="centered-row">
+      <Row className="centered-row mt-5">
         <div className="join ">
           <h4>Join us on our journey to excellence and innovation</h4>
           <p>
