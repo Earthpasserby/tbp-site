@@ -5,7 +5,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Homepage2 = () => {
   return (
     <>
-      <Container fluid style={{ backgroundColor: "#FFF9F8" }} className="home">
+      <Container
+        fluid
+        style={{ backgroundColor: "#FFF9F8", height: "500px" }}
+        className="home"
+      >
         <Row className="mx-auto">
           <Col md={7} className="HomeParagraph1 mb-5">
             <pre>OUR MISSION</pre>

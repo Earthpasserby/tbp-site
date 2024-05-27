@@ -92,9 +92,15 @@ const HomePage = () => {
               </Nav.Link>
             </Nav>
             <Nav className=" mx-4">
-              <Image src="/./Facebook.png" className="img-fluid mx-2" />
-              <Image src="/./x.png" className="img-fluid mx-2" />
-              <Image src="/./ig.png" className="img-fluid" />
+              <Link to="/Contact" className="Link">
+                <Image src="/./Facebook.png" className="img-fluid mx-2" />
+              </Link>
+              <Link to="/Contact" className="Link">
+                <Image src="/./x.png" className="img-fluid mx-2" />
+              </Link>
+              <Link to="/Contact" className="Link">
+                <Image src="/./ig.png" className="img-fluid mx-2" />
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -108,7 +114,7 @@ const HomePage = () => {
                   their various Niche
                 </p>
                 <Link to="/" style={{ textDecoration: "none" }}>
-                  <div className=" LinkButton mx-auto">
+                  <div className=" LinkButton mx-auto mt-5">
                     <Button
                       type="btn"
                       variant="Secondary"

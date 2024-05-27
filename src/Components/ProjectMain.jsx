@@ -85,9 +85,15 @@ const ProjectMain = () => {
               </Nav.Link>
             </Nav>
             <Nav className=" mx-4">
-              <Image src="/./Facebook.png" className="img-fluid" />
-              <Image src="/./x.png" className="img-fluid" />
-              <Image src="/./ig.png" className="img-fluid" />
+              <Link to="/Contact" className="Link">
+                <Image src="/./Facebook.png" className="img-fluid mx-2" />
+              </Link>
+              <Link to="/Contact" className="Link">
+                <Image src="/./x.png" className="img-fluid mx-2" />
+              </Link>
+              <Link to="/Contact" className="Link">
+                <Image src="/./ig.png" className="img-fluid mx-2" />
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

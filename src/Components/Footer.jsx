@@ -25,7 +25,7 @@ const Footer = () => {
               <div className="mt-4 pic">
                 <Image src="/./Facebook.png" className="img-fluid mx-2" />
                 <Image src="/./x.png" className="img-fluid mx-2" />
-                <Image src="/./ig.png" className="img-fluid" />
+                <Image src="/./ig.png" className="img-fluid mx-2" />
               </div>
             </Col>
             <Col md={4} className="">
