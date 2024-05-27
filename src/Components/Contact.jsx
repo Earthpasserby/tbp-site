@@ -99,7 +99,7 @@ const Contact = () => {
           backgroundImage: "url('./call.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          minHeight: "80vh",
+          minHeight: "90vh",
         }}
       >
         <Container>
@@ -128,9 +128,18 @@ const Contact = () => {
                     </p>
                     <div className="mx-1 social-media-links">
                       <p className="p4">OUR SOCIAL MEDIA</p>
-                      <Image src="/./Facebook.png" className="img-fluid " />
-                      <Image src="/./x.png" className="img-fluid" />
-                      <Image src="/./ig.png" className="img-fluid" />
+                      <Link to="/AboutPage" className="Link">
+                        <Image
+                          src="/./Facebook.png"
+                          className="img-fluid mx-2"
+                        />
+                      </Link>
+                      <Link to="/Testimonial" className="Link">
+                        <Image src="/./x.png" className="img-fluid mx-2" />
+                      </Link>
+                      <Link to="/Contact" className="Link">
+                        <Image src="/./ig.png" className="img-fluid mx-2" />
+                      </Link>
                     </div>
                   </Col>
                 </Col>
