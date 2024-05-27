@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <Container
       fluid
-      style={{ backgroundColor: "#F6F6F6", height: "700px" }}
+      style={{ backgroundColor: "#F6F6F6", height: "800px" }}
       className="Project "
     >
       <Row className="mx-auto mt-4 mb-5">

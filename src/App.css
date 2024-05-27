@@ -1190,6 +1190,9 @@
 }
 
 /*Project page*/
+.Project {
+  padding-top: 40px;
+}
 .Project pre {
   font-family: "Montserrat";
   font-size: 15px;
@@ -1256,6 +1259,10 @@
   line-height: 19.5px;
   text-align: left;
   color: #ff3c00;
+}
+
+.Exp-header {
+  padding-top: 150px;
 }
 
 .Exp-header h4 {

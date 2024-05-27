@@ -12,7 +12,7 @@ const Experience = () => {
       className="mt-1 home"
     >
       <Row className="Exp-header ">
-        <Col md={8} className="mb-2 mt-5">
+        <Col md={8} className="mb-2">
           <h4 className="mb-4" style={{ color: "#FFFFFF" }}>
             Join The Brand Plug
             <span style={{ color: "#FF3C00" }}> Experience</span>
