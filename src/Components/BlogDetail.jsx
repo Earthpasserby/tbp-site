@@ -92,7 +92,7 @@ const BlogDetail = () => {
             <Col md={6} className="BlogD1">
               <div className="d-flex justify-space-between Blogd">
                 <div>
-                  <Image src="/./Profile.png" className="img-fluid" />
+                  <Image src="./Profile.png" className="img-fluid" />
                 </div>
                 <Stack direction="horizontal" gap={3} className="mx-2">
                   <span style={{ color: "#FF3C00" }}>Daniel Onakpa</span>
