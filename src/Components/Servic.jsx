@@ -399,7 +399,7 @@ const Servic = () => {
         }}
       >
         <Row className="centered-row">
-          <div className="join ">
+          <div className="join servic-Join ">
             <h4>Join us on our journey to excellence and innovation</h4>
             <p>
               Together, we'll shape the future of branding and business growth,
