@@ -4,7 +4,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Featured = () => {
   return (
-    <Container style={{ backgroundColor: "#FFFFF" }} className="mt-5 feat-P">
+    <Container
+      style={{ backgroundColor: "#FFFFF" }}
+      className="mt-5 feat-P mb-5"
+    >
       <Row className="Feat-p justify-content-center">
         <div className="Service">
           <p className="p1 mt-4">FEATURED CLIENTS</p>
