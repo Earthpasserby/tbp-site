@@ -1210,7 +1210,6 @@
   width: 650px;
   height: 28px;
   gap: 0px;
-  opacity: 0px;
 }
 
 .Project p {
@@ -1222,7 +1221,6 @@
   width: 481px;
   height: 141px;
   gap: 0px;
-  opacity: 0px;
   color: #363636;
 }
 .Project {
@@ -1269,7 +1267,6 @@
   width: 612px;
   height: 25px;
   gap: 0px;
-  opacity: 0px;
 }
 
 .Exp-header p {
@@ -1281,7 +1278,6 @@
   width: 753px;
   height: 173px;
   gap: 0px;
-  opacity: 0px;
   color: #ffffff;
 }
 
@@ -1295,7 +1291,6 @@
   margin-top: 130px;
   height: 72px;
   gap: 0px;
-  opacity: 0px;
   color: #ffffff;
 }
 
@@ -1403,7 +1398,6 @@
   width: 540px;
   height: 39px;
   gap: 0px;
-  opacity: 0px;
 }
 
 /*join page*/
@@ -1434,7 +1428,6 @@
   padding: 5px 5px 10px 10px;
   gap: 10px;
   border-radius: 50px;
-  opacity: 0px;
   background: #ff3c00;
   text-align: center;
 }
@@ -1444,7 +1437,6 @@
   width: 913px;
   height: 313px;
   gap: 69px;
-  opacity: 0px;
 }
 
 /*footer page*/
@@ -1457,7 +1449,6 @@
 
 .footer .p1 {
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 16px;
   font-weight: 500;
@@ -1498,7 +1489,6 @@
   height: 59px;
   left: 1333px;
   gap: 0px;
-  opacity: 0px;
   text-align: center;
 }
 
@@ -1507,7 +1497,6 @@
   height: 32.85px;
   top: 88.74px;
   gap: 0px;
-  opacity: 0px;
   color: #ffffff;
   font-size: 13px;
 }
@@ -1526,7 +1515,6 @@
   width: 110px;
   height: 11px;
   gap: 0px;
-  opacity: 0px;
   margin-top: 20px;
 }
 .About-us p {
@@ -1545,7 +1533,6 @@
   top: 73px;
   left: 120px;
   gap: 44px;
-  opacity: 0px;
   position: relative;
   margin-bottom: 270px;
 }
@@ -1562,7 +1549,6 @@
   width: 647px;
   height: 416px;
   gap: 40px;
-  opacity: 0px;
 }
 
 .para p {
@@ -1600,11 +1586,9 @@
 .M-span2 {
   width: 66px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 15px;
   font-weight: 500;
-
   letter-spacing: 0.15em;
   text-align: left;
   color: #ff3c00;
@@ -1622,7 +1606,6 @@
   width: 650px;
   height: 45px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 35px;
   font-weight: 700;
@@ -1634,7 +1617,6 @@
   width: 650px;
   height: 45px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 35px;
   font-weight: 700;
@@ -1644,9 +1626,7 @@
 }
 .mission p {
   width: 769px;
-
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 500;
@@ -1658,7 +1638,6 @@
   width: 769px;
   height: 205px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 500;
@@ -1672,7 +1651,6 @@
   top: -234%;
   left: 1419px;
   gap: 0px;
-  opacity: 0px;
 }
 .About-pic {
   display: flex;
@@ -1711,7 +1689,6 @@
   top: 173px;
   left: 120px;
   gap: 44px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 20px;
   font-weight: 600;
@@ -1730,7 +1707,6 @@
   width: 168px;
   height: 11px;
   gap: 0px;
-  opacity: 0px;
   color: #ff3c00;
   margin-top: 50px;
 }
@@ -1739,7 +1715,6 @@
   padding: 5px 5px 10px 10px;
   gap: 10px;
   border-radius: 50px;
-  opacity: 0px;
   background: #ffffff;
   text-align: center;
 }
@@ -1753,7 +1728,6 @@
   width: 90px;
   height: 11px;
   gap: 0px;
-  opacity: 0px;
 }
 
 .line2 {
@@ -1802,14 +1776,12 @@
   width: 588px;
   height: 252px;
   gap: 40px;
-  opacity: 0px;
 }
 
 .parag {
   width: 630px;
   height: 45px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 400;
@@ -1821,7 +1793,6 @@
   width: 630px;
   height: 45px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 400;
@@ -1839,7 +1810,6 @@
   width: 588px;
   height: 68px;
   gap: 0px;
-  opacity: 0px;
 }
 .parag h4 {
   padding-top: 25px;
@@ -1855,7 +1825,6 @@
   width: 333px;
   height: 25px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 35px;
   font-weight: 700;
@@ -1867,7 +1836,6 @@
   width: 588px;
   height: 45px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 400;
@@ -1879,7 +1847,6 @@
   width: 484px !important;
   height: 25px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 35px;
   font-weight: 700;
@@ -1893,7 +1860,6 @@
   width: 509px;
   height: 25px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 35px;
   font-weight: 700;
