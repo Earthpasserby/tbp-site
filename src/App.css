@@ -2391,13 +2391,11 @@
   top: 117px;
   left: 208px;
   gap: 44px;
-  opacity: 0px;
 }
 .Contact-details h4 {
   width: 168px;
   height: 11px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 16px;
   font-weight: 500;
@@ -2410,21 +2408,17 @@
   width: 108px;
   margin-top: -10px;
   border: 6px 0px 0px 0px;
-  opacity: 0px;
   color: #ff3c00;
 }
 .contact-Icon {
   width: 24px;
-
   gap: 0px;
-  opacity: 0px;
   color: #ff3c00;
 }
 .Contact-p {
   width: 508px;
   height: 116px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 20px;
   font-weight: 600;
@@ -2443,7 +2437,6 @@
   top: 381px;
   left: 208px;
   gap: 0px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 20px;
   font-weight: 800;
@@ -2454,7 +2447,6 @@
 
 .Contact-Address .p1 {
   width: 309px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 600;
@@ -2465,7 +2457,6 @@
 }
 .Contact-Address .p2 {
   width: 309px;
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 20px;
   font-weight: 600;
@@ -2474,7 +2465,6 @@
   color: #ffffff;
 }
 .Contact-Address .p3 {
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 20px;
   font-weight: 600;
@@ -2483,7 +2473,6 @@
   color: #ffffff;
 }
 .Contact-Address .p4 {
-  opacity: 0px;
   font-family: "Montserrat";
   font-size: 15px;
   font-weight: 600;
@@ -2496,7 +2485,6 @@
   left: 809px;
   gap: 0px;
   border-radius: 12px 0px 0px 0px;
-  opacity: 0px;
 }
 .Contact {
   padding-top: 100px;
@@ -2508,7 +2496,6 @@
   left: 809px;
   gap: 0px;
   border-radius: 12px;
-  opacity: 0px;
 }
 
 .contact-form {
@@ -2518,7 +2505,6 @@
   top: 55px;
   left: 38px;
   gap: 12px;
-  opacity: 0px;
   margin-left: auto;
   margin-right: auto;
 }
