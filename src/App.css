@@ -209,6 +209,9 @@
 }
 @media only screen and (min-width: 360px) and (max-width: 992px) {
   /*HomePage Navbar content*/
+  .tbp-Icon {
+    display: none;
+  }
   .centered-text h4 {
     font-family: "Montserrat";
     font-size: 14px;
