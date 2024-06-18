@@ -74,7 +74,7 @@ const MainAbout = () => {
                 </Link>
               </Nav.Link>
             </Nav>
-            <Nav className=" mx-4">
+            <Nav className=" mx-4 tbp-Icon">
               <Image src="/./Facebook.png" className="img-fluid" />
               <Image src="/./x.png" className="img-fluid" />
               <Image src="/./ig.png" className="img-fluid" />

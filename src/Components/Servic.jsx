@@ -74,7 +74,7 @@ const Servic = () => {
                 </Link>
               </Nav.Link>
             </Nav>
-            <Nav className=" mx-4">
+            <Nav className=" mx-4 tbp-Icon">
               <Link to="/Contact" className="Link">
                 <Image src="/./Facebook.png" className="img-fluid mx-2" />
               </Link>
